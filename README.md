@@ -1,25 +1,43 @@
-👋 Hi, I’m @1nc0gn30, a passionate developer and tech enthusiast with a knack for innovation and creativity.
-About Me
+# Hi there, I'm 1nc0gn30 👋
 
-    👀 I'm Interested In: Software development, machine learning, web scraping, and open-source collaboration.
-    🌱 I'm Currently Learning: Advanced AI algorithms, cloud computing, and full-stack development. 
-    💞️ I'm Looking to Collaborate On: Exciting projects that push the boundaries of technology, especially in the fields of AI, automation, and web development.
-    📫 How to Reach Me: Feel free to connect with me on LinkedIn or drop me an email at br34kth3m4tr1xn30@gmail.com
-Projects
+Welcome to my GitHub profile! I'm an underground tech enthusiast passionate about web development, ethical hacking, and all things tech. Here, you'll find a collection of my projects, ranging from innovative web applications to cutting-edge security solutions.
 
-    ChatGPT-Scraper: A dynamic chatbot with web scraping capabilities.
-    Other Project Name: Brief description of another project.
+## About Me
 
-Skills
+- **Name**: Neal Frazier (1nc0gn30)
+- **Interests**: Web Development, Cybersecurity, Ethical Hacking, SEO Marketing, Blogging
+- **Skills**: HTML, CSS, JavaScript, React, Node.js, Python, Penetration Testing, SEO
+- **Profession**: Versatile Professional in Web Development, SEO Marketing, Cybersecurity, Valet Business Management, Blogging, and Ethical Hacking
 
-    Languages: Python, JavaScript
-    Tools: Git, Docker
-    Frameworks: React, TensorFlow, Scrapy
-Contributions
+## What I Do
 
-I believe in the power of community and collaboration. If you find my projects interesting, feel free to fork, star, or contribute. Your support is greatly appreciated!
-Connect with Me
+### Web Development
+I build robust and scalable web applications using modern frameworks and technologies. My projects focus on creating seamless user experiences and efficient, maintainable code.
 
-    LinkedIn https://www.linkedin.com/in/nealfrazier/
-    Twitter TBA
-    Personal Website https://nealfrazier.tech
+### Cybersecurity
+As an ethical hacker, I explore security vulnerabilities and develop strategies to protect digital assets. My work includes penetration testing, security audits, and implementing best practices to safeguard systems.
+
+### SEO Marketing
+I help businesses enhance their online visibility through effective SEO strategies. My expertise includes keyword research, on-page optimization, and content marketing to drive organic traffic.
+
+### Blogging
+I share my insights and experiences in the tech world through my blog. From tutorials and how-tos to industry trends and personal projects, my blog is a resource for anyone looking to learn and grow in the tech field.
+
+## Featured Projects
+
+TBA
+
+## Let's Connect
+
+I love collaborating with like-minded individuals and learning from the tech community. Feel free to reach out if you have any questions, ideas, or just want to chat about tech.
+
+- **Website**: [nealfrazier.tech](https://nealfrazier.tech)
+- **LinkedIn**: [linkedin.com/in/neal-frazier](https://www.linkedin.com/in/neal-frazier)
+- **Email**: [neal@nealfrazier.tech](mailto:business@nealfrazier.tech)
+
+---
+
+Thanks for stopping by! Happy coding! 🚀
+
+
+
