@@ -33,7 +33,7 @@ I love collaborating with like-minded individuals and learning from the tech com
 
 - **Website**: [nealfrazier.tech](https://nealfrazier.tech)
 - **LinkedIn**: [linkedin.com/in/neal-frazier](https://www.linkedin.com/in/neal-frazier)
-- **Email**: [neal@nealfrazier.tech](mailto:business@nealfrazier.tech)
+- **Email**: [business@nealfrazier.tech](mailto:business@nealfrazier.tech)
 
 ---
 
