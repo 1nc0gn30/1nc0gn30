@@ -6,8 +6,8 @@ Welcome to my GitHub profile! I'm an underground tech enthusiast passionate abou
 
 - **Name**: Neal Frazier (1nc0gn30)
 - **Interests**: Web Development, Cybersecurity, Ethical Hacking, SEO Marketing, Blogging
-- **Skills**: HTML, CSS, JavaScript, React, Node.js, Python, Penetration Testing, SEO
-- **Profession**: Versatile Professional in Web Development, SEO Marketing, Cybersecurity, Valet Business Management, Blogging, and Ethical Hacking
+- **Skills**: HTML, CSS, JavaScript, React, Node.js, Python, Penetration Testing, SEO, Linux
+- **Profession**: Versatile Human Being in Web Development, SEO Marketing, Cybersecurity, Valet Business Management, Blogging, and Ethical Hacking
 
 ## What I Do
 
@@ -32,7 +32,7 @@ TBA
 I love collaborating with like-minded individuals and learning from the tech community. Feel free to reach out if you have any questions, ideas, or just want to chat about tech.
 
 - **Website**: [nealfrazier.tech](https://nealfrazier.tech)
-- **LinkedIn**: [linkedin.com/in/neal-frazier](https://www.linkedin.com/in/neal-frazier)
+- **LinkedIn**: [linkedin.com/in/neal-frazier](https://www.linkedin.com/in/nealfrazier)
 - **Email**: [business@nealfrazier.tech](mailto:business@nealfrazier.tech)
 
 ---
