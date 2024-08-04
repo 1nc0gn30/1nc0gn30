@@ -25,7 +25,8 @@ I share my insights and experiences in the tech world through my blog. From tuto
 
 ## Featured Projects
 
-TBA
+https://th34ll.nealfrazier.tech
+30-Days-Of-Linux-Fundamentals
 
 ## Let's Connect
 
