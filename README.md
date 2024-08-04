@@ -4,7 +4,7 @@ Welcome to my GitHub profile! I'm an underground tech enthusiast passionate abou
 
 ## About Me
 
-- **Name**: Neal Frazier (1nc0gn30)
+- **Name**: Neal Frazier (1nc0gn30) aka Thomas Anderson (Neo)
 - **Interests**: Web Development, Cybersecurity, Ethical Hacking, SEO Marketing, Blogging
 - **Skills**: HTML, CSS, JavaScript, React, Node.js, Python, Penetration Testing, SEO, Linux
 - **Profession**: Versatile Human Being in Web Development, SEO Marketing, Cybersecurity, Valet Business Management, Blogging, and Ethical Hacking
