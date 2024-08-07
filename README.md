@@ -1,4 +1,4 @@
-# Hi there, I'm 1nc0gn30 👋
+# Hi there, I'm 1nc0gn30 [Neal Frazier (neo) **thomas anderson**] 👋
 
 Welcome to my GitHub profile! I'm an underground tech enthusiast passionate about web development, ethical hacking, and all things tech. Here, you'll find a collection of my projects, from innovative web apps to cutting-edge security solutions.
 
