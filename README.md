@@ -30,9 +30,7 @@ Sharing tech insights and experiences through tutorials, how-tos, industry trend
 ## Featured Projects
 
 - [30 Days of Linux Fundamentals](https://github.com/1nc0gn30/30-days-of-Linux-Fundamentals)
-- [Open Educational Resource](https://th34ll.nealfrazier.tech)
-- [Skill Swap Platform](https://skill-swap.nealfrazier.tech)
-- [Hack The World - Blogs, News, Tools, and Products](https://hacktheworld.nealfrazier.tech)
+- [Hack The World - Blogs, News, Tools, and Products](https://hacktheworld.website)
 - [Stoicism Blog](https://stoicism.website)
 
 ## Let's Connect
