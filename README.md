@@ -17,7 +17,7 @@ Welcome to my GitHub profile! I'm an underground tech enthusiast passionate abou
   ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)  
   ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge)  
   ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white&style=for-the-badge)  
-- **Profession**: Versatile Pro in Web Development, SEO Marketing, Cybersecurity, Valet Business Management, Blogging, and Ethical Hacking  
+- **Profession**: Versatile in Web Development, SEO Marketing, Cybersecurity, Valet Business Management, Blogging, and Ethical Hacking  
 
 ---
 
