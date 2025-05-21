@@ -24,14 +24,14 @@ Welcome to my GitHub profile! I'm an underground tech enthusiast passionate abou
 ## 🛠️ What I Do
 
 ### **Web Development Superpowers**  
-I specialize in building robust, scalable web applications using modern frameworks and technologies. My focus is on creating seamless user experiences with efficient and maintainable code.
+I enjoy building robust, scalable web applications using modern frameworks and technologies. My focus is on creating seamless user experiences with efficient and maintainable code.
 
 - **React**: Crafting dynamic and responsive front-end applications.  
 - **Supabase**: Leveraging this open-source Firebase alternative for back-end services.  
 - **Linux**: Utilizing the power of Linux for development, deployment, and system administration.
 
 ### **Cybersecurity**  
-As an ethical hacker, I explore security vulnerabilities and develop strategies to protect digital assets, including penetration testing and security audits.
+As an upcoming ethical hacker, I explore security vulnerabilities and develop strategies to protect digital assets, including penetration testing and security audits.
 
 ### **SEO Marketing**  
 Enhancing online visibility through effective SEO strategies, including keyword research, on-page optimization, and content marketing.
