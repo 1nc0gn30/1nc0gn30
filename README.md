@@ -12,7 +12,7 @@
 class Neo:
     def __init__(self):
         self.name = "Neal Frazier"
-        self.alias = ["1nc0gn30", "Neo", "Thomas Anderson"]
+        self.alias = ["1nc0gn30", "Neo"]
         self.location = "Virginia Beach 🏖️"
         self.role = "Full-Stack Developer | Ethical Hacker | Digital Freedom Fighter"
         self.mindset = "Don't follow trends → Remix them 🔄"
@@ -57,7 +57,7 @@ class Neo:
 
 ---
 
-## 🔮 WHAT I'M DROPPING
+## 🔮 Some fun repositories!
 
 ```yaml
 - 30 Days of Linux Fundamentals:
@@ -70,17 +70,6 @@ class Neo:
     tech: ["Streamlit", "Python", "trippy visuals"]
     link: https://glitchfix.streamlit.app
 
-- Hack The World:
-    type: "Hacker OSINT gear blog"
-    link: https://hacktheworld.website
-
-- Stoicism Site:
-    type: "reflective journaling in the chaos"
-    link: https://stoicism.website
-
-- Valet Ninjas:
-    type: "stealth-mode valet service"
-    link: https://valetninjas.website
 ```
 
 ---
