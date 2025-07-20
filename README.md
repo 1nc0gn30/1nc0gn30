@@ -68,7 +68,7 @@ class Neo:
 - GlitchFx:
     type: "datamosh/video editor"
     tech: ["Streamlit", "Python", "trippy visuals"]
-    link: https://glitchfix.streamlit.app
+    link: https://glitchfx.streamlit.app
 
 ```
 
