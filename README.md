@@ -1,66 +1,64 @@
-# Neal Frazier — Developer • Security Analyst • Open-Source Builder
+# NEAL FRAZIER // 1NC0GN30
+### `SYSTEM ENTRY: nealfrazier.tech`
 
-> Full-stack engineering, cybersecurity, and friction-removal automation.  
-> React, Linux, and AI-powered tooling are my core lane.
+```text
+SECURE BUILD PIPELINE // ACTIVE
+Velocity: High
+Attack Surface: Minimized
+Status: Shipping
+```
 
----
-
-## 👋 About Me
-I build fast frontends, secure systems, and automation tools that make workflows cleaner.  
-My background blends:
-
-- React + Vite engineering  
-- Linux systems + cybersecurity (SOX security analyst experience)  
-- Automation development (PowerShell, Python, C)  
-- Open-source tooling + AI-driven developer workflows  
-
-Based in **Virginia Beach, VA**, and focused on the intersection of **web dev, security, and creative tech**.
+Security Analyst and Full-Stack AI Web Developer operating from a hardened Parrot OS environment.
+I build high-performance web systems where speed, governance, and security are treated as one discipline.
 
 ---
 
-## 🛠 Technical Focus (2025)
+## Current Sprint
 
-**Frontend**  
-React 19 • Vite • MUI • Three.js • Framer Motion  
+### 100 Websites in 30 Days
+A live execution sprint proving high-velocity delivery, reusable architecture, and automation-first shipping discipline at scale.
 
-**Backend / Infra**  
-Python • Node • Supabase • SQLite • Netlify  
-
-**Systems / Security**  
-Linux • Parrot OS • PowerShell • Shell scripting • CI/CD • SOX controls  
-
-**Interests**  
-AI tooling • automation pipelines • glitch art • edge compute  
+### Netlify AI Shippers Program
+Recognized for applying AI to close the gap between complex LLM workflows and production-grade web architecture.
 
 ---
 
-## 📌 Highlighted Projects
+## The Deployment Architect Protocol
 
-### **30 Days of Linux Fundamentals**  
-A C-based Linux CLI curriculum designed for real-world fundamentals and muscle memory.  
-**Repo:** https://github.com/1nc0gn30/30-days-of-Linux-Fundamentals
+Every release follows a non-negotiable pre-deployment standard:
 
-### **GlitchFX**  
-AI-assisted datamosh + visual distortion tool built with Python + Streamlit.  
-**App:** https://glitchfx.streamlit.app
+- Form detection and submission-path validation
+- Security hardening checks across app and infrastructure layers
+- SEO audit completion before go-live (metadata, indexing controls, technical readiness)
+- Performance and accessibility sanity checks for enterprise-grade delivery
+- Production handoff with documented deployment logic and rollback clarity
 
----
-
-## 📈 What I’m Working On
-- AI-assisted CI/CD and dev automation  
-- Visualization tools for payloads + logic flows  
-- 3D web experiences and high-performance animation pipelines  
-- Security-focused automation for enterprise workflows  
+Outcome: fast launches without compromising compliance, trust, or operational stability.
 
 ---
 
-## 🌐 Connect
+## Enterprise Expertise
 
-- Portfolio: https://nealfrazier.tech  
-- LinkedIn: https://linkedin.com/in/nealfrazier  
-- Email: business@nealfrazier.tech  
+I operate at the intersection of security analysis and high-velocity engineering:
+
+- SOX-oriented workflow automation and governance-aware implementation
+- Secure full-stack delivery using Astro, Vite, React, and pure HTML/CSS patterns
+- Backend and data workflows with Supabase and compliance-minded access design
+- Security tooling integration and remediation workflows (including Snyk)
+- Practical AI deployment patterns with local/private model workflows (including Ollama)
+
+This profile is structured for Fortune 500 collaboration and NDA-governed execution where discretion and precision are mandatory.
 
 ---
 
-## 🧩 Personal Statement
-> I build software that makes complexity easier to see, understand, and secure.
+## Transmission
+
+For freelance builds, retained engineering, and NDA-governed consultations:
+
+- Portal: [https://nealfrazier.tech](https://nealfrazier.tech)
+- Ops Domain: [https://757tech.pro](https://757tech.pro)
+- Direct: [business@nealfrazier.tech](mailto:business@nealfrazier.tech)
+
+```text
+END OF TRANSMISSION // READY FOR DEPLOYMENT
+```
