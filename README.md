@@ -1,184 +1,286 @@
 <div align="center">
 
-# `NEAL FRAZIER // 1NC0GN30`
+# ⚡ BUILD FASTER. SHIP SMARTER. SCALE WITH AI.
 
-### SYSTEM NODE // ACTIVE
-#### :contentReference[oaicite:0]{index=0}
+### Websites • AI Employees • Lead Systems • Custom Software • Edge Deployments
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=900&color=00E5FF&center=true&vCenter=true&width=1200&lines=Solutions+Architect+%7C+Security+Analyst;Netlify+AI+Shippers+%7C+Founding+Member;100+Websites+in+30+Days+%7C+Velocity+Protocol;Astro+%2F+Vite+%2F+Composable+Infrastructure;Edge-First+Deployment+%7C+Security-Hardened+Systems;Fortune+500+%26+NDA-Governed+Engineering+Ready" alt="Typing Status" />
+<a href="https://nealfrazier.tech">
+  <img src="https://img.shields.io/badge/🚀_START_A_PROJECT-nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117" />
+</a>
+
+<a href="https://757tech.pro">
+  <img src="https://img.shields.io/badge/⚡_AI_EMPLOYEE_SETUP-757tech.pro-00E5FF?style=for-the-badge&labelColor=0d1117" />
+</a>
+
+<a href="https://www.netlify.com/">
+  <img src="https://img.shields.io/badge/DEPLOYED_ON-NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" />
+</a>
 
 <br/>
+<br/>
 
-<img src="https://img.shields.io/badge/ENV-Parrot_OS-0b0f14?style=for-the-badge&logo=linux&logoColor=00E5FF" />
-<img src="https://img.shields.io/badge/STACK-Astro%20%2F%20Vite-0b0f14?style=for-the-badge&logo=astro&logoColor=00E5FF" />
-<img src="https://img.shields.io/badge/SECURITY-Hardened-0b0f14?style=for-the-badge&logo=snyk&logoColor=00E5FF" />
-<img src="https://img.shields.io/badge/DEPLOYMENT-Netlify_AI_Shippers-0b0f14?style=for-the-badge&logo=netlify&logoColor=00E5FF" />
-<img src="https://img.shields.io/badge/STATUS-Shipping-0b0f14?style=for-the-badge&logo=vercel&logoColor=00E5FF" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=1200&lines=Custom+Websites+That+Actually+Convert;AI+Employees+That+Handle+Leads+24%2F7;Deploy+Globally+In+Seconds+With+Netlify;100+Websites+in+30+Days+%7C+LIVE+Challenge;Stop+Overthinking.+Ship+Something." />
 
 </div>
 
 ---
 
-# `SYSTEM STATUS`
+# 👋 Hey, I’m Neal Frazier
 
-```yaml
-PIPELINE: ACTIVE
-LOCATION: Virginia Beach, VA
-OPERATIONAL_MODE: HIGH_VELOCITY
-ATTACK_SURFACE: MINIMIZED
-GOVERNANCE_LAYER: ENFORCED
-ARCHITECTURE: EDGE-FIRST
-DEPLOYMENT_STATE: READY
-```
+I build modern business systems powered by:
 
----
+- ⚡ High-performance websites
+- 🤖 AI employees + automations
+- 📈 Lead generation systems
+- 🔒 Security-conscious infrastructure
+- 🌍 Global edge deployment with Netlify
 
-# `CORE MISSION`
+Most businesses don’t need more complexity.
 
-I engineer high-performance web systems where velocity, security, scalability, and governance operate as a unified deployment layer.
+They need:
 
-The objective is simple:
-
-- Ship faster
-- Reduce fragility
-- Minimize operational drag
-- Maintain enterprise-grade discipline
-- Automate repeatable infrastructure
-
-No bloated stacks.  
-No dependency chaos.  
-No fragile deployment chains.
-
----
-
-# `CURRENT OPERATIONS`
-
-## ⚡ 100 Websites in 30 Days
-
-A live execution sprint focused on:
-
-- deployment velocity
-- reusable architecture
-- automation-first scaling
-- production-safe iteration
-- edge-native infrastructure
-
-This initiative stress-tests operational throughput under real-world deployment pressure.
-
----
-
-## 🚀 Netlify AI Shippers
-
-Founding member of the Netlify AI Shippers initiative, integrating:
-
-- local AI orchestration
-- agentic workflows
-- edge deployment pipelines
-- composable frontend systems
-- production-safe automation
-
-Primary focus:
-
-> Bridging local AI systems into secure, maintainable production infrastructure.
-
----
-
-# `DEPLOYMENT PROTOCOL`
-
-```plaintext
-PRE-DEPLOY GATE // NON-NEGOTIABLE
-
-[01] FORM DETECTION + SUBMISSION PATH VALIDATION
-[02] SECURITY HARDENING ACROSS APP + INFRA SURFACES
-[03] SEO AUDIT: TITLES, META, CANONICALS, INDEXING
-[04] PERFORMANCE + ACCESSIBILITY SANITY PASS
-[05] RELEASE LOGIC + ROLLBACK CLARITY CONFIRMATION
-
-OUTCOME:
-Accelerated launches without compromising
-trust, resilience, compliance, or maintainability.
-```
-
----
-
-# `INFRASTRUCTURE STACK`
-
-## 🔒 Security + Governance
-
-- SOX-conscious workflow implementation
-- Threat-aware deployment discipline
-- Hardened infrastructure patterns
-- Security remediation pipelines
-- Governance-aligned engineering
-- Minimal attack-surface philosophy
-
----
-
-## ⚙️ High-Velocity Systems
-
-- Astro
-- Vite
-- Decoupled React architectures
-- Edge-first deployment models
-- Minimal-diff release execution
-- Reusable composable systems
-- No-Next.js operational strategy
-
----
-
-## 🤖 AI + Data Operations
-
-- Ollama orchestration
-- Agentic desktop tooling
-- Local AI deployment workflows
-- Supabase backend systems
-- Snyk remediation pipelines
-- Multi-agent operational architecture
-
----
-
-# `ENTERPRISE READINESS`
-
-```diff
-+ Fortune 500 Engagement Ready
-+ NDA-Governed Delivery Ready
-+ Production Infrastructure Focused
-+ Security-Conscious Execution
-+ Scalable Operational Systems
-```
-
----
-
-# `LIVE SIGNAL`
-
-## 📡 Transmission Channels
-
-| System | Access Point |
-|---|---|
-| Command Portal | :contentReference[oaicite:1]{index=1} |
-| Operations Domain | :contentReference[oaicite:2]{index=2} |
-| Secure Contact | business@nealfrazier.tech |
-
----
-
-# `PHILOSOPHY`
-
-> Ship relentlessly.  
-> Automate aggressively.  
-> Harden everything.  
-> Keep the stack composable.  
-> Reduce noise.  
-> Maintain operational clarity.
+✅ More leads  
+✅ Faster websites  
+✅ Better automation  
+✅ Better deployment  
+✅ Systems that actually ship
 
 ---
 
 <div align="center">
 
-```plaintext
-END OF TRANSMISSION
-SYSTEM READY FOR DEPLOYMENT
+# 🚀 START BUILDING ON NETLIFY
+
+### The platform I use to deploy fast, secure, scalable systems.
+
+<a href="https://www.netlify.com/">
+  <img width="900" src="https://www.netlify.com/v3/img/components/logomark.png" />
+</a>
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+## ⚡ Deploy Fast
+
+Push to Git → live globally in seconds.
+
+</td>
+
+<td align="center" width="33%">
+
+## 🌍 Edge Infrastructure
+
+Fast worldwide delivery with built-in scaling.
+
+</td>
+
+<td align="center" width="33%">
+
+## 🤖 AI Ready
+
+Perfect for AI apps, agents, automations, and APIs.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<a href="https://www.netlify.com/">
+  <img src="https://img.shields.io/badge/START_DEPLOYING_WITH_NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" />
+</a>
+
+</div>
+
+---
+
+# 🤖 AI EMPLOYEES AREN’T THE FUTURE.
+
+# THEY’RE THE PRESENT.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/24%2F7-Lead_Handling-00E5FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/AI-Customer_Support-00E5FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Automation-Sales_Workflows-00E5FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Local_AI-Ollama-00E5FF?style=for-the-badge&labelColor=0d1117" />
+
+</div>
+
+Businesses are losing leads every single day because:
+
+- nobody responds fast enough
+- nobody follows up consistently
+- systems are disconnected
+- websites don’t convert
+
+AI agents solve that.
+
+I help businesses deploy:
+
+- AI lead responders
+- AI support systems
+- AI workflow automations
+- Internal business agents
+- Smart intake systems
+- AI-powered operational tooling
+
+---
+
+# 🔥 THE `100 WEBSITES IN 30 DAYS` CHALLENGE
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/CHALLENGE-ACTIVE-ff3b81?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/DEPLOYMENT-VELOCITY-00E5FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/SHIP_MODE-ENGAGED-00E5FF?style=for-the-badge&labelColor=0d1117" />
+
+</div>
+
+Most people spend months trying to make the “perfect app.”
+
+I’m proving something different:
+
+> You learn faster by shipping.
+
+This challenge is about:
+
+- execution over hesitation
+- deployment over perfection
+- iteration over fear
+- momentum over overthinking
+
+The internet rewards builders.
+
+Not drafts.
+
+Not unfinished repos.
+
+Not “coming soon.”
+
+---
+
+<div align="center">
+
+# ⚡ WHAT I BUILD
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+## 🌐 Business Websites
+
+- Fast-loading websites
+- SEO-focused architecture
+- Mobile-first UI
+- Conversion-focused layouts
+- Netlify deployment pipelines
+
+</td>
+
+<td width="50%">
+
+## 🤖 AI Employee Systems
+
+- AI support agents
+- Lead qualification bots
+- AI workflow automation
+- Agent orchestration
+- Internal tooling
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+## 📈 Lead Generation
+
+- Landing pages
+- Funnel systems
+- Form pipelines
+- CRM integrations
+- Automated follow-up
+
+</td>
+
+<td width="50%">
+
+## 🛠️ Custom Software
+
+- Internal dashboards
+- Workflow tooling
+- API systems
+- Supabase backends
+- Edge functions
+
+</td>
+</tr>
+</table>
+
+---
+
+# ⚙️ CURRENT STACK
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=astro,react,vite,ts,nodejs,netlify,supabase,docker,linux,github" />
+
+</div>
+
+---
+
+# 🔒 SECURITY + PERFORMANCE MATTER
+
+A fast site that breaks under pressure is useless.
+
+Every deployment should include:
+
+```yaml
+✔ Security Hardening
+✔ SEO Validation
+✔ Form Detection Testing
+✔ Performance Optimization
+✔ Accessibility Checks
+✔ Rollback Clarity
+✔ Production-Safe Deployment
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F14,100:00E5FF&height=120&section=footer"/>
+---
+
+<div align="center">
+
+# 📡 LET’S BUILD SOMETHING
+
+<a href="https://nealfrazier.tech">
+  <img src="https://img.shields.io/badge/🌐_WEBSITE-nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117" />
+</a>
+
+<br/>
+<br/>
+
+<a href="https://757tech.pro">
+  <img src="https://img.shields.io/badge/⚡_AI_+_WEB_SERVICES-757tech.pro-00E5FF?style=for-the-badge&labelColor=0d1117" />
+</a>
+
+<br/>
+<br/>
+
+<a href="mailto:business@nealfrazier.tech">
+  <img src="https://img.shields.io/badge/📩_CONTACT-business@nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00E5FF&height=180&section=footer&text=SHIP%20FASTER&fontColor=ffffff&fontSize=40&animation=fadeIn&fontAlignY=35"/>
 
 </div>
