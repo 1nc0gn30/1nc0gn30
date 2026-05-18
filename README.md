@@ -54,7 +54,7 @@ They need:
 ### The platform I use to deploy fast, secure, scalable systems.
 
 <a href="https://www.netlify.com/">
-  <img width="900" src="https://www.netlify.com/v3/img/components/logomark.png" />
+  <img width="900" src="https://www.netlify.com/v3/img/components/logomark.png](https://cdn.sanity.io/images/o0o2tn5x/production/853f17bcb1c0c264dab052006ef61fcf2893987f-1200x675.gif?" />
 </a>
 
 <br/>
