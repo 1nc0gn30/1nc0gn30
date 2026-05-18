@@ -29,6 +29,8 @@
 
 I build modern business systems powered by:
 
+<img src="https://raw.githubusercontent.com/1nc0gn30/netlify-media-assets/refs/heads/main/Netlify%20Icon.png" alt="Netlify Logo"/>
+
 - ⚡ **High-performance websites** — Built for conversions, not just aesthetics
 - 🤖 **AI employees + automations** — Systems that work 24/7
 - 📈 **Lead generation systems** — Sales pipelines that scale
