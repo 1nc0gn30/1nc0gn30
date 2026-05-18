@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/⚡_AI_EMPLOYEE_SETUP-757tech.pro-00E5FF?style=for-the-badge&labelColor=0d1117&logo=bolt&logoColor=00E5FF" alt="AI Employee Setup" />
 </a>
 &nbsp;&nbsp;
-<a href="https://www.netlify.com/">
+<a href="https://join.netlify.com/yoso7wqaix15">
   <img src="https://img.shields.io/badge/DEPLOYED_ON-NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" alt="Netlify" />
 </a>
 
@@ -110,6 +110,7 @@ I don't build websites. I build **_conversion machines_**. I don't deploy apps. 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=2000&color=00C7B7&center=true&vCenter=true&width=800&lines=Push+to+Git+%E2%86%92+Live+Globally;Edge+Deployment+Across+Continents;Scale+Without+Servers;DDoS+Protection+Built-In" alt="Netlify benefits" />
 
 </div>
+<div align="center">
 
 | Feature | ***Impact*** | Benefit |
 |:---:|:---|:---|
@@ -118,10 +119,12 @@ I don't build websites. I build **_conversion machines_**. I don't deploy apps. 
 | 🤖 | ***AI Ready*** | Perfect for agents, automations, APIs |
 | 🔐 | ***Built-in Security*** | DDoS protection, SSL, automatic backups |
 | 📊 | ***Real Analytics*** | Know what's working **_instantly_** |
+| 🚀 | ***Infinite Scaling*** | Handles traffic spikes automatically with **_zero stress_** |
 
+</div>
 <div align="center">
 
-<a href="https://www.netlify.com/">
+<a href="https://join.netlify.com/yoso7wqaix15">
   <img src="https://img.shields.io/badge/START_DEPLOYING_WITH_NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117&logoWidth=20" alt="Deploy with Netlify" />
 </a>
 
