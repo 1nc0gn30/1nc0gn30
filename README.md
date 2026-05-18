@@ -3,9 +3,12 @@
 # ⚡🔥 ***BUILD FASTER. SHIP SMARTER. SCALE WITH AI.*** 🔥⚡
 
 ### ***Websites • AI Employees • Lead Systems • Custom Software • Edge Deployments***
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&duration=8000&pause=1000&color=00E5FF&center=true&vCenter=true&width=1200&lines=Custom+Websites+That+Convert+💰;AI+Employees+Working+24%2F7+🤖;Scale+Infinitely+🚀;Deploy+in+Seconds+⚡" alt="Animated intro" />
-
+<p align="center">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&duration=8000&pause=1000&color=00E5FF&center=true&vCenter=true&width=1200&lines=Custom+Websites+That+Convert+%F0%9F%92%B0;AI+Employees+Working+24%2F7+%F0%9F%A4%96;Scale+Infinitely+%F0%9F%9A%80;Deploy+in+Seconds+%E2%9A%A1" 
+    alt="Animated intro"
+  />
+</p>
 <br/>
 
 <a href="https://nealfrazier.tech">
