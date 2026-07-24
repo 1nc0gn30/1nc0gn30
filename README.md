@@ -1,9 +1,9 @@
 <!-- xonettn -->
 <div align="center">
 
-# 📦 1Nc0Gn30
+# 📦 ⚡🔥 ***BUILD FASTER. SHIP SMARTER. SCALE WITH AI.*** 🔥⚡
 
-Config files for my GitHub profile.
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&duration=8000&pause=1000&color=00E5FF&center=true&vCenter=true&width=1200&lines=Custom+Websites+That+Convert+%F0%9F%92%B0;A
 
 
 ![Deploy](https://img.shields.io/badge/Deployed-Netlify-00C7B7?logo=netlify&logoColor=white)
@@ -12,32 +12,8 @@ Config files for my GitHub profile.
 
 ---
 
-## 📋 Overview
-Config files for my GitHub profile.
-
-## 📦 Tech Stack
-- HTML/CSS/JavaScript
-
-## 🗂️ Project Structure
-```
-1nc0gn30/
-  - 
-  (1 files total)
-```
-
-## 🚀 Getting Started
-
-### 📖 Usage
-Open index.html in your browser or serve locally.
-Use: npx serve .
-
-## 📂 Original README
-<details>
-<summary>Click to expand original README</summary>
-
 <div align="center">
 
-# ⚡🔥 ***BUILD FASTER. SHIP SMARTER. SCALE WITH AI.*** 🔥⚡
 
 ### ***Websites • AI Employees • Lead Systems • Custom Software • Edge Deployments***
 <p align="center">
@@ -526,29 +502,6 @@ Growth stalls.
 ### ***Powered by Netlify • Secured by Practice • Shipped by Momentum***
 
 </div>
-
-</details>
-
-## 📝 TODO / Roadmap
-- [ ] Add unit tests
-- [ ] Add LICENSE file
-- [ ] Add CI/CD pipeline
-- [ ] Add contribution guidelines (CONTRIBUTING.md)
-- [ ] Improve error handling and edge cases
-- [ ] Add environment variable documentation
-- [ ] Add code comments and inline documentation
-
-## 🚀 Deployment
-This project can be deployed to Netlify, Vercel, or any static host.
-
-## 👤 Author
-**Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
-
-## 🔗 Links
-- GitHub: https://github.com/1nc0gn30/1nc0gn30
-
----
-*This README was enhanced as part of the neals-projects-2026 batch update.*
 
 ---
 
