@@ -96,20 +96,48 @@
 ## 👋 ***Hey, I'm Neal Frazier*** `(@1nc0gn30)`
 
 ### ***Sovereign AI Architect • Multi-Agent Systems Engineer • Full-Stack Edge Builder***
-#### *Founder of [757 Tech](https://757tech.pro) & [NullAI / Zoth Studio](https://nullai.tech)*
+#### *Founder of [NullAI / Zoth Studio](https://nullai.tech) • Systems Architect at [Tech Pro (757tech.pro)](https://757tech.pro)*
+
+<br/>
+
+<table align="center" width="100%">
+<tr align="center">
+<td width="33.3%">
+<b>🖥️ Host Environment</b><br/>
+<code>Parrot OS Linux (x86_64)</code><br/>
+<small>Sovereign Bare-Metal Node</small>
+</td>
+<td width="33.3%">
+<b>🛰️ Swarm Plane (:8989)</b><br/>
+<code>ONLINE • AGY + Hermes + Grok</code><br/>
+<small>Asynchronous Multi-Agent Bus</small>
+</td>
+<td width="33.3%">
+<b>🔬 Math Observability</b><br/>
+<code>3-Pillar Tensor Physics</code><br/>
+<small>Attention (QKᵀ) • Gradients • Entropy</small>
+</td>
+</tr>
+<tr align="center">
+<td width="33.3%">
+<b>🔐 Cryptographic Security</b><br/>
+<code>Argon2id + XChaCha20</code><br/>
+<small>Zero-Cloud Private Loopback</small>
+</td>
+<td width="33.3%">
+<b>⚡ Production Velocity</b><br/>
+<code>286+ Projects • 160+ Shipped</code><br/>
+<small>Global Edge Deployments</small>
+</td>
+<td width="33.3%">
+<b>🎯 Operational Mission</b><br/>
+<code>High-Leverage Systems</code><br/>
+<small>Eliminate Manual Bottlenecks</small>
+</td>
+</tr>
+</table>
 
 </div>
-
-```ansi
-[1;36m┌──([1;35mOPERATOR_COCKPIT[1;36m)─[[1;32m127.0.0.1:8484[1;36m]───────────────────────────────────────────────────────┐[0m
-[1;36m│[0m [1;33mHOST[0m        : Parrot OS Linux (x86_64) // Sovereign Workstation                      [1;36m│[0m
-[1;36m│[0m [1;33mSWARM BUS[0m   : [1;32mONLINE [Active :8989][0m // Antigravity + Nous Hermes + Grok + Ollama   [1;36m│[0m
-[1;36m│[0m [1;33mOBSERVABILITY[0m: 3-Pillar Tensors // Linear Algebra (QK^T) • Calculus • Shannon Entropy [1;36m│[0m
-[1;36m│[0m [1;33mENCRYPTION[0m  : Argon2id + XChaCha20-Poly1305 // Zero Cloud Leaks                       [1;36m│[0m
-[1;36m│[0m [1;33mVELOCITY[0m    : [1;35m286+ Tracked Projects[0m • [1;32m160+ Shipped Live in Production[0m               [1;36m│[0m
-[1;36m│[0m [1;33mMISSION[0m     : Build High-Leverage Systems • Eliminate Operational Bottlenecks        [1;36m│[0m
-[1;36m└────────────────────────────────────────────────────────────────────────────────────────┘[0m
-```
 
 I don't just write software — I build **conversion machines**. I don't just deploy scripts — I orchestrate **autonomous multi-agent swarms and high-velocity operational leverage**.
 
@@ -157,7 +185,7 @@ Whether it's building sovereign AI studios with live tensor math telemetry, coor
 </td>
 <td width="50%" align="left" valign="top">
 
-### 🤖 **[757 Tech — AI Employee Systems](https://757tech.pro)**
+### 🤖 **[Tech Pro — AI Employee Systems](https://757tech.pro)**
 *Autonomous 24/7 Operational Leverage for Growing Businesses*
 - ⚡ **<30s Inbound Response**: AI intake agents that qualify leads instantly before they go cold.
 - 💬 **Support & Knowledge Agents**: Conversational AI trained on business data to resolve customer tickets around the clock.
@@ -325,8 +353,7 @@ Whether it's building sovereign AI studios with live tensor math telemetry, coor
 | **Layer** | **Technologies & Frameworks** | **Specialized Implementation** |
 |:---|:---|:---|
 | 🤖 **AI & Swarm Engines** | **Antigravity (`agy`), Nous Hermes, Grok, Ollama, DeepSeek, DSPy, Axolotl, Unsloth** | Local multi-agent task DAGs, structured JSON generation, BYOK key vaults, fine-tuning |
-| 🔬 **Observability & Math** | **Linear Algebra ($QK^T$), Multivariable Calculus ($
-abla L$), Shannon Entropy** | Live attention heatmaps, entropy token uncertainty, AdamW momentum telemetry |
+| 🔬 **Observability & Math** | **Linear Algebra ($QK^T$), Multivariable Calculus ($\nabla L$), Shannon Entropy** | Live attention heatmaps, entropy token uncertainty, AdamW momentum telemetry |
 | 🌐 **Frontend & 3D Web** | **Astro, React 19, Vite, TypeScript, Tailwind CSS, Three.js / R3F, Framer Motion** | Ultra-fast static sites, kinetic 3D WebGL arenas, cybernetic design systems |
 | ⚡ **Backend & Edge** | **Node.js, Python 3.12, FastMCP, Netlify Functions & Edge, Supabase (Postgres & RLS)** | Serverless microservices, real-time database subscriptions, WebSocket message buses |
 | 🔒 **Security & OSINT** | **Parrot Security OS, SubSweep, HexStrike, Argon2id, CISA GRC audit frameworks** | Attack surface discovery, local loopback encryption, automated vulnerability audits |
@@ -349,7 +376,7 @@ abla L$), Shannon Entropy** | Live attention heatmaps, entropy token uncertainty
 | **Project** | **Category** | **Live URL** | **Highlights & Capabilities** |
 |:---|:---|:---:|:---|
 | 🏛️ **Zoth Studio Hub** | *AI / Developer Tools* | [**`nullai.tech`**](https://nullai.tech) | Local-first multi-agent studio, visual DAG composer, 3D kinetic arena |
-| ⚡ **757 Tech** | *AI Employee Agency* | [**`757tech.pro`**](https://757tech.pro) | 24/7 AI employee setups, lead intake engines & business automations |
+| ⚡ **Tech Pro** | *AI Employee Systems* | [**`757tech.pro`**](https://757tech.pro) | 24/7 AI employee setups, lead intake engines & business automations |
 | 🚀 **Neal Frazier Flagship** | *Personal Brand / Systems* | [**`nealfrazier.tech`**](https://nealfrazier.tech) | Conversion machines, client case studies, high-leverage software |
 | 🕶️ **Hacker Portfolio v2** | *Cybersecurity / Portfolio* | [**`hacker-portfolio.757tech.pro`**](https://hacker-portfolio.757tech.pro) | Cybernetic interactive portfolio with live terminal interface |
 | 🏛️ **Stoicism 3D Portal** | *3D WebGL / Philosophy* | [**`stoicism.nullai.tech`**](https://stoicism.nullai.tech) | Interactive Three.js particle canvas & Marcus Aurelius wisdom engine |
