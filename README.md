@@ -2,39 +2,89 @@
 
 # ⚡🔥 ***BUILD FASTER. SHIP SMARTER. SCALE WITH AI.*** 🔥⚡
 
-### ***Websites • AI Employees • Lead Systems • Custom Software • Edge Deployments***
+### ***Sovereign AI Systems • Autonomous Multi-Agent Swarms • High-Velocity Edge Deployments***
+
 <p align="center">
   <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&duration=8000&pause=1000&color=00E5FF&center=true&vCenter=true&width=1200&lines=Custom+Websites+That+Convert+%F0%9F%92%B0;AI+Employees+Working+24%2F7+%F0%9F%A4%96;Scale+Infinitely+%F0%9F%9A%80;Deploy+in+Seconds+%E2%9A%A1" 
-    alt="Animated intro"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&duration=5000&pause=1000&color=00E5FF&center=true&vCenter=true&width=1100&lines=Sovereign+Multi-Agent+AI+Orchestrator+%F0%9F%A4%96;Mathematical+Observability+%26+Live+Tensors+%F0%9F%94%AC;160%2B+Production+Apps+Shipped+Globally+%E2%9A%A1;Zero-Cloud-Leak+Local+First+Architectures+%F0%9F%94%92;High-Converting+Digital+Conversion+Engines+%F0%9F%92%B0;Linux+Native+Creative+Media+%26+Video+DSP+%F0%9F%8E%AC" 
+    alt="Neal Frazier Animated Header"
   />
 </p>
+
 <br/>
 
+<!-- TOP ACTION BADGES -->
 <a href="https://nealfrazier.tech">
   <img src="https://img.shields.io/badge/🚀_START_A_PROJECT-nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117&logo=rocket&logoColor=00E5FF" alt="Start a project" />
 </a>
 &nbsp;&nbsp;
 <a href="https://757tech.pro">
-  <img src="https://img.shields.io/badge/⚡_AI_EMPLOYEE_SETUP-757tech.pro-00E5FF?style=for-the-badge&labelColor=0d1117&logo=bolt&logoColor=00E5FF" alt="AI Employee Setup" />
+  <img src="https://img.shields.io/badge/⚡_AI_EMPLOYEES-757tech.pro-ff3b81?style=for-the-badge&labelColor=0d1117&logo=bolt&logoColor=ff3b81" alt="AI Employee Setup" />
+</a>
+&nbsp;&nbsp;
+<a href="https://nullai.tech">
+  <img src="https://img.shields.io/badge/🏛️_ZOTH_STUDIO-nullai.tech-a855f7?style=for-the-badge&labelColor=0d1117&logo=atom&logoColor=a855f7" alt="Zoth Studio" />
 </a>
 &nbsp;&nbsp;
 <a href="https://join.netlify.com/yoso7wqaix15">
-  <img src="https://img.shields.io/badge/DEPLOYED_ON-NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" alt="Netlify" />
+  <img src="https://img.shields.io/badge/DEPLOYED_ON-NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" alt="Netlify Partner" />
 </a>
 
 <br/><br/>
 
-<svg width="100" height="100" viewBox="0 0 100 100" style="margin: 0 auto; display: block;">
-  <circle cx="50" cy="50" r="45" fill="none" stroke="00E5FF" stroke-width="2" opacity="0.3">
-    <animate attributeName="r" values="45;50;45" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+<!-- CYBERNETIC APEX REACTOR ANIMATED SVG -->
+<svg width="220" height="220" viewBox="0 0 200 200" style="margin: 0 auto; display: block;">
+  <defs>
+    <radialGradient id="reactorGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#03050a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Ambient background glow -->
+  <circle cx="100" cy="100" r="90" fill="url(#reactorGlow)" />
+
+  <!-- Outer Orbit Ring with Dash Animation -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="6,8" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="20s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="50" cy="50" r="35" fill="none" stroke="00C7B7" stroke-width="2" opacity="0.5">
-    <animate attributeName="r" values="35;40;35" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="3s" repeatCount="indefinite"/>
+
+  <!-- Mid Segmented Ring (Clockwise) -->
+  <circle cx="100" cy="100" r="68" fill="none" stroke="#ff3b81" stroke-width="2" stroke-dasharray="24,12,6,12" opacity="0.7" filter="url(#neonBlur)">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="12s" repeatCount="indefinite"/>
   </circle>
-  <text x="50" y="55" text-anchor="middle" font-size="24" fill="00E5FF" font-weight="bold">⚡</text>
+
+  <!-- Inner Counter-Rotating Telemetry Ring -->
+  <circle cx="100" cy="100" r="52" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="14,14" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Core Pulsing Reactor -->
+  <circle cx="100" cy="100" r="32" fill="#090d18" stroke="#00E5FF" stroke-width="2.5" filter="url(#neonBlur)">
+    <animate attributeName="r" values="32;36;32" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#00E5FF;#ff3b81;#a855f7;#00E5FF" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Swarm Orbital Nodes -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="6s" repeatCount="indefinite"/>
+    <!-- Node 1: Antigravity -->
+    <circle cx="100" cy="32" r="5" fill="#00E5FF" filter="url(#neonBlur)"/>
+    <!-- Node 2: Hermes -->
+    <circle cx="168" cy="100" r="4.5" fill="#ff3b81" filter="url(#neonBlur)"/>
+    <!-- Node 3: Grok -->
+    <circle cx="100" cy="168" r="5" fill="#a855f7" filter="url(#neonBlur)"/>
+    <!-- Node 4: Ollama -->
+    <circle cx="32" cy="100" r="4.5" fill="#10b981" filter="url(#neonBlur)"/>
+  </g>
+
+  <!-- Central Apex Glyph -->
+  <text x="100" y="108" text-anchor="middle" font-family="monospace" font-size="24" font-weight="900" fill="#00E5FF">⚡</text>
 </svg>
 
 </div>
@@ -43,26 +93,102 @@
 
 <div align="center">
 
-## 👋 ***Hey, I'm Neal Frazier***
+## 👋 ***Hey, I'm Neal Frazier*** `(@1nc0gn30)`
 
-### ***Building business systems that actually move the needle***
+### ***Sovereign AI Architect • Multi-Agent Systems Engineer • Full-Stack Edge Builder***
+#### *Founder of [757 Tech](https://757tech.pro) & [NullAI / Zoth Studio](https://nullai.tech)*
 
 </div>
 
-I don't build websites. I build **_conversion machines_**. I don't deploy apps. I deploy **_operational leverage_**.
+```ansi
+[1;36m┌──([1;35mOPERATOR_COCKPIT[1;36m)─[[1;32m127.0.0.1:8484[1;36m]───────────────────────────────────────────────────────┐[0m
+[1;36m│[0m [1;33mHOST[0m        : Parrot OS Linux (x86_64) // Sovereign Workstation                      [1;36m│[0m
+[1;36m│[0m [1;33mSWARM BUS[0m   : [1;32mONLINE [Active :8989][0m // Antigravity + Nous Hermes + Grok + Ollama   [1;36m│[0m
+[1;36m│[0m [1;33mOBSERVABILITY[0m: 3-Pillar Tensors // Linear Algebra (QK^T) • Calculus • Shannon Entropy [1;36m│[0m
+[1;36m│[0m [1;33mENCRYPTION[0m  : Argon2id + XChaCha20-Poly1305 // Zero Cloud Leaks                       [1;36m│[0m
+[1;36m│[0m [1;33mVELOCITY[0m    : [1;35m286+ Tracked Projects[0m • [1;32m160+ Shipped Live in Production[0m               [1;36m│[0m
+[1;36m│[0m [1;33mMISSION[0m     : Build High-Leverage Systems • Eliminate Operational Bottlenecks        [1;36m│[0m
+[1;36m└────────────────────────────────────────────────────────────────────────────────────────┘[0m
+```
+
+I don't just write software — I build **conversion machines**. I don't just deploy scripts — I orchestrate **autonomous multi-agent swarms and high-velocity operational leverage**.
+
+Whether it's building sovereign AI studios with live tensor math telemetry, coordinating specialized LLM agents over asynchronous message buses, or deploying dozens of sub-second edge applications on global infrastructure, my thesis is simple: **Velocity beats hesitation. Ship live code.**
+
+---
 
 <div align="center">
 
-### What Powers Every Project
-
-| **⚡** | ***High-Performance Websites*** | **Built to convert, not just exist** |
-|:---:|:---|:---|
-| **🤖** | ***AI Employees + Automations*** | **Systems that work while you sleep** |
-| **📈** | ***Lead Generation Systems*** | **Sales pipelines that scale infinitely** |
-| **🔒** | ***Security-First Infrastructure*** | **Enterprise-grade, never fragile** |
-| **🌍** | ***Global Edge Deployment*** | **Fast everywhere, always lightning-quick** |
+## ⚡ ***THE SIX PILLARS OF OPERATIONAL LEVERAGE***
 
 </div>
+
+| **Icon** | **Pillar** | **Core Architecture & Technology** | **Real-World Impact** |
+|:---:|:---|:---|:---|
+| 🤖 | ***Autonomous Multi-Agent Swarms*** | Antigravity (`agy`), Nous Hermes, Grok, Ollama (DeepSeek/Qwen), DSPy, FastMCP | Distributed agents executing complex DAG task chains autonomously |
+| 🔬 | ***3-Pillar Math Observability*** | Scaled dot-product attention ($\text{softmax}(QK^T/\sqrt{d_k})V$), loss gradients, Shannon entropy | Physical telemetry inside every token generation; zero black-box obscurity |
+| ⚡ | ***High-Velocity Edge Deployments*** | Astro, React 19, Vite, TypeScript, Netlify Edge Functions, Supabase Postgres RLS | Sub-second TTFB, instant global edge routing, and automated CI/CD pipelines |
+| 🔒 | ***Zero-Cloud-Leak Sovereignty*** | Private loopback isolation (`127.0.0.1:8484`), Argon2id + XChaCha20 encrypted vaults | Complete IP and credential protection without third-party proxy exposure |
+| 📈 | ***Autonomous Business Pipelines*** | 24/7 AI lead intake, real-time qualification engines, intelligent CRM syncing | <30-second inbound response times and zero leaked customer deals |
+| 🎬 | ***Linux Creative & Video DSP*** | Computer vision cursor tracking, DSP web audio synthesis, OmniPost repurposing | Studio-grade video assets, automated 9:16 Shorts, and interactive 3D WebGL |
+
+---
+
+<div align="center">
+
+## 🏛️ ***APEX PLATFORMS & FLAGSHIP INVENTIONS***
+
+### ***Engineered, verified, and running live in production***
+
+</div>
+
+<table>
+<tr>
+<td width="50%" align="left" valign="top">
+
+### 🔮 **[Zoth Studio & NullAI](https://nullai.tech)**
+*Sovereign Local-First AI Powerhouse & Math Observability Studio*
+- 🎯 **The Loopback Doctrine**: Complete local orchestration bound to `127.0.0.1:8484` with zero external telemetry leaks.
+- 📐 **3-Pillar Math Engine**: Live visualization of transformer attention matrices, cross-entropy loss gradients, and Shannon entropy uncertainty.
+- 🐝 **Multi-Agent Swarm Bus**: Inter-agent message plane (`:8989`) uniting Antigravity (`agy`), Nous Hermes, Grok, and local Ollama instances.
+- 🔐 **Argon2id BYOK Vault**: Hardware-bound encryption for LLM keys and sensitive API tokens.
+- 🌐 **Live Hubs**: [**`nullai.tech`**](https://nullai.tech) · [**`zoth.nealfrazier.tech`**](https://zoth.nealfrazier.tech)
+
+</td>
+<td width="50%" align="left" valign="top">
+
+### 🤖 **[757 Tech — AI Employee Systems](https://757tech.pro)**
+*Autonomous 24/7 Operational Leverage for Growing Businesses*
+- ⚡ **<30s Inbound Response**: AI intake agents that qualify leads instantly before they go cold.
+- 💬 **Support & Knowledge Agents**: Conversational AI trained on business data to resolve customer tickets around the clock.
+- 🔗 **Full-Fitted Workflows**: Automated calendar booking, CRM pipelines, follow-up sequencing, and lead scoring.
+- 🛠️ **Bespoke Automation Stacks**: Custom operational software tailored for modern service & digital brands.
+- 🌐 **Live Platform**: [**`757tech.pro`**](https://757tech.pro)
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="left" valign="top">
+
+### 🎬 **Maya Video Editor & Creative Suite**
+*Linux-Native Motion Graphics, Recording & Synthesis Engine*
+- 🎥 **Computer Vision Tracking**: Smooth cursor tracking, procedural focus zooms, and canvas rendering.
+- 🔊 **Procedural Web Audio DSP**: Built-in soundboard, parametric filters, and synthesized soundscapes.
+- 📱 **OmniPost Content Pipeline**: Auto-repurposes video into 16:9 widescreen, 9:16 vertical Shorts, and long-form teardowns.
+- 🐧 **Parrot OS & Linux Optimized**: Built for direct bare-metal hardware acceleration.
+
+</td>
+<td width="50%" align="left" valign="top">
+
+### 📱 **Zoth Signal Bridge & Swarm Remote**
+*Android Remote Telemetry & Mobile Control Plane*
+- 🛰️ **Live Agent Stream**: Real-time telemetry, agent thought logs, and execution traces pushed to mobile.
+- 📡 **Remote Prompt & Steering**: Direct intervention and task assignment over secure local network channels.
+- 🔔 **Autonomous Event Triggers**: Mobile push alerts for completed batch runs, security audit findings, and agent handoffs.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -70,171 +196,37 @@ I don't build websites. I build **_conversion machines_**. I don't deploy apps. 
 
 ## 🎯 ***THE PROBLEM I SOLVE***
 
-### ***Most businesses are leaving money on the table***
+### ***Why Most Businesses and Systems Bleed Revenue and Momentum***
 
 </div>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td align="center" width="50%">
+<td align="left" width="50%">
 
-### ❌ ***The Status Quo***
+### ❌ ***The Status Quo (Broken & Leaky)***
 
-- 🚨 Slow response times → **_Lost leads_**
-- 📉 Manual follow-ups → **_Dropped deals_**
-- 🔗 Disconnected systems → **_Chaos_**
-- 🐌 Clunky websites → **_Low conversions_**
-- ⚙️ Complex tooling → **_Wasted time_**
-
-</td>
-
-<td align="center" width="50%">
-
-### ✅ ***My Solution***
-
-- ⚡ ***<30s response time*** via AI
-- 🤖 ***24/7 automation*** systems
-- 🔌 ***Integrated workflows*** end-to-end
-- 🎨 ***Conversion-focused*** design
-- 🚀 ***Deploy in seconds*** with Git
+- 🚨 **Slow response times** → Leads wait hours; 80% go to competitors
+- 📉 **Manual follow-ups** → Deals slip through cracks and revenue leaks
+- 🔗 **Fragmented software** → Disconnected SaaS apps creating chaos
+- 🐌 **Bloated websites** → Slow 4s+ loads that kill conversions
+- ☁️ **Opaque cloud AI lock-in** → Leaked API keys, high bills, zero control
 
 </td>
-</tr>
-</table>
 
----
+<td align="left" width="50%">
 
-<div align="center">
+### ✅ ***The Sovereign Solution (High-Velocity)***
 
-# 🔥 ***NETLIFY: THE PLATFORM THAT SHIPS***
-
-### ***Deploy Once. Scale Forever.***
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=2000&color=00C7B7&center=true&vCenter=true&width=800&lines=Push+to+Git+%E2%86%92+Live+Globally;Edge+Deployment+Across+Continents;Scale+Without+Servers;DDoS+Protection+Built-In" alt="Netlify benefits" />
-
-</div>
-<div align="center">
-
-| Feature | ***Impact*** | Benefit |
-|:---:|:---|:---|
-| ⚡ | ***Deploy Fast*** | Push to Git → live globally in **_seconds_** |
-| 🌍 | ***Edge Infrastructure*** | Served from edge nodes **_worldwide_** |
-| 🤖 | ***AI Ready*** | Perfect for agents, automations, APIs |
-| 🔐 | ***Built-in Security*** | DDoS protection, SSL, automatic backups |
-| 📊 | ***Real Analytics*** | Know what's working **_instantly_** |
-| 🚀 | ***Infinite Scaling*** | Handles traffic spikes automatically with **_zero stress_** |
-
-</div>
-<div align="center">
-
-<a href="https://join.netlify.com/yoso7wqaix15">
-  <img src="https://img.shields.io/badge/START_DEPLOYING_WITH_NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117&logoWidth=20" alt="Deploy with Netlify" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-# 🤖 ***AI EMPLOYEES AREN'T THE FUTURE—THEY'RE THE PRESENT***
-
-### ***They work 24/7. They never take a day off. They never forget.***
-
-<svg width="150" height="150" viewBox="0 0 150 150" style="margin: 20px auto; display: block;">
-  <!-- Robot head -->
-  <rect x="30" y="30" width="90" height="80" rx="10" fill="none" stroke="00E5FF" stroke-width="2">
-    <animate attributeName="stroke" values="00E5FF;00C7B7;00E5FF" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  <!-- Left eye -->
-  <circle cx="50" cy="55" r="8" fill="none" stroke="00E5FF" stroke-width="2">
-    <animate attributeName="r" values="8;10;8" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Right eye -->
-  <circle cx="100" cy="55" r="8" fill="none" stroke="00E5FF" stroke-width="2">
-    <animate attributeName="r" values="8;10;8" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Mouth -->
-  <path d="M 55 80 Q 75 90 95 80" fill="none" stroke="00E5FF" stroke-width="2">
-    <animate attributeName="d" values="M 55 80 Q 75 90 95 80;M 55 75 Q 75 85 95 75;M 55 80 Q 75 90 95 80" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <!-- Pulse waves -->
-  <circle cx="75" cy="75" r="40" fill="none" stroke="00E5FF" stroke-width="1" opacity="0.3">
-    <animate attributeName="r" values="40;70;100" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.3;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-</svg>
-
-<img src="https://img.shields.io/badge/24%2F7_UPTIME-Lead_Handling-ff3b81?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/AI_POWERED-Customer_Support-00E5FF?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/AUTO_WORKFLOW-Sales_Qualified-00E5FF?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/LOCAL_AI-Ollama_Ready-00E5FF?style=for-the-badge&labelColor=0d1117" />
-
-</div>
-
----
-
-<div align="center">
-
-## 🚨 ***Why Businesses Bleed Money Every Single Day***
-
-</div>
-
-<table width="100%">
-<tr align="center">
-<td width="25%">
-
-### 🔴 ***No Response***
-
-Customers wait hours.
-Leads go cold.
-Deals die.
-
-</td>
-<td width="25%">
-
-### 🔴 ***No Follow-Up***
-
-80% of sales happen after the 5th touch.
-Manual follow-ups never happen.
-Revenue leaks.
-
-</td>
-<td width="25%">
-
-### 🔴 ***No Integration***
-
-Systems don't talk.
-Data gets lost.
-Chaos ensues.
-
-</td>
-<td width="25%">
-
-### 🔴 ***No Conversion***
-
-Websites are afterthoughts.
-Form rates are trash.
-Growth stalls.
+- ⚡ **<30s AI response time** → Immediate engagement and instant qualification
+- 🤖 **24/7 AI employee systems** → Never sleep, never forget, never drop leads
+- 🔌 **Unified automated pipelines** → Git-triggered edge deployments and CRM sync
+- 🎨 **Sub-second edge speed** → Blazing-fast Astro/Vite sites with >95 Lighthouse scores
+- 🔒 **Local-first multi-agent orchestration** → Full mathematical visibility and total privacy
 
 </td>
 </tr>
 </table>
-
-### ***Here's what I deploy:***
-
-<div align="center">
-
-| **System** | **Speed** | **Impact** | **24/7** |
-|:---:|:---:|:---:|:---:|
-| 🤖 ***AI Lead Responders*** | ***<30 seconds*** | 3x faster response | ✅ Yes |
-| 💬 ***AI Support Agents*** | ***Instant*** | 24/7 availability | ✅ Yes |
-| ⚙️ ***Workflow Automations*** | ***Automatic*** | 10x task efficiency | ✅ Yes |
-| 🧠 ***Internal AI Agents*** | ***Real-time*** | Custom business logic | ✅ Yes |
-| 📋 ***Smart Lead Intake*** | ***Instant*** | Auto-qualify leads | ✅ Yes |
-| 🛠️ ***AI Operations Tooling*** | ***Automatic*** | Streamline everything | ✅ Yes |
-
-</div>
 
 ---
 
@@ -242,154 +234,103 @@ Growth stalls.
 
 # 🔥🚀 ***THE 100 WEBSITES IN 30 DAYS CHALLENGE*** 🚀🔥
 
-### ***Proving that velocity beats perfection***
+### ***Proving That Deployment Velocity Beats Perfectionism Every Single Time***
 
-<svg width="120" height="120" viewBox="0 0 120 120" style="margin: 20px auto; display: block;">
-  <!-- Rocket body -->
-  <rect x="45" y="20" width="30" height="60" rx="5" fill="none" stroke="ff3b81" stroke-width="2"/>
-  <!-- Rocket tip -->
-  <polygon points="60,10 50,25 70,25" fill="none" stroke="ff3b81" stroke-width="2"/>
-  <!-- Window -->
-  <circle cx="60" cy="35" r="5" fill="none" stroke="00E5FF" stroke-width="2">
-    <animate attributeName="r" values="5;6;5" dur="1.5s" repeatCount="indefinite"/>
+<!-- KINETIC LAUNCH ANIMATED SVG -->
+<svg width="240" height="150" viewBox="0 0 240 150" style="margin: 20px auto; display: block;">
+  <defs>
+    <linearGradient id="rocketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b81" />
+      <stop offset="50%" stop-color="#ffaa00" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Stars / Space particles -->
+  <circle cx="30" cy="20" r="1.5" fill="#00E5FF" opacity="0.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="210" cy="35" r="1.5" fill="#ff3b81" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="70" cy="110" r="1" fill="#a855f7" opacity="0.5"/>
+  <circle cx="180" cy="120" r="1" fill="#00E5FF" opacity="0.7"/>
+
+  <!-- Rocket Body -->
+  <path d="M 120 15 C 105 45, 100 80, 102 95 L 138 95 C 140 80, 135 45, 120 15 Z" fill="url(#rocketGrad)" stroke="#00E5FF" stroke-width="2"/>
+  <!-- Nosecone accent -->
+  <polygon points="120,15 110,40 130,40" fill="#03050a" opacity="0.4"/>
+  <!-- Cockpit Window -->
+  <circle cx="120" cy="55" r="8" fill="#03050a" stroke="#00E5FF" stroke-width="2"/>
+  <circle cx="120" cy="55" r="4" fill="#00E5FF">
+    <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <!-- Flame left -->
-  <polygon points="45,80 35,110 45,90" fill="none" stroke="ff3b81" stroke-width="2">
-    <animate attributeName="points" values="45,80 35,110 45,90;45,80 32,115 45,90;45,80 35,110 45,90" dur="1s" repeatCount="indefinite"/>
-  </polygon>
-  <!-- Flame right -->
-  <polygon points="75,80 85,110 75,90" fill="none" stroke="ff3b81" stroke-width="2">
-    <animate attributeName="points" values="75,80 85,110 75,90;75,80 88,115 75,90;75,80 85,110 75,90" dur="1s" repeatCount="indefinite"/>
-  </polygon>
+
+  <!-- Fins -->
+  <path d="M 102 75 L 85 98 L 102 95 Z" fill="#ff3b81"/>
+  <path d="M 138 75 L 155 98 L 138 95 Z" fill="#ff3b81"/>
+
+  <!-- Kinetic Exhaust Flames -->
+  <path d="M 106 95 Q 120 145 120 140 Q 120 145 134 95 Z" fill="url(#flameGrad)">
+    <animate attributeName="d" values="M 106 95 Q 120 148 120 140 Q 120 148 134 95 Z; M 106 95 Q 120 135 120 130 Q 120 135 134 95 Z; M 106 95 Q 120 148 120 140 Q 120 148 134 95 Z" dur="0.25s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 112 95 Q 120 130 120 125 Q 120 130 128 95 Z" fill="#ffffff" opacity="0.9">
+    <animate attributeName="d" values="M 112 95 Q 120 130 120 125 Q 120 130 128 95 Z; M 112 95 Q 120 120 120 115 Q 120 120 128 95 Z; M 112 95 Q 120 130 120 125 Q 120 130 128 95 Z" dur="0.2s" repeatCount="indefinite"/>
+  </path>
 </svg>
 
-<img src="https://img.shields.io/badge/CHALLENGE-ACTIVE-ff3b81?style=for-the-badge&labelColor=0d1117&logo=zap&logoColor=ff3b81" />
-<img src="https://img.shields.io/badge/DEPLOYMENT-VELOCITY-00E5FF?style=for-the-badge&labelColor=0d1117&logo=fast-forward&logoColor=00E5FF" />
-<img src="https://img.shields.io/badge/SHIP_MODE-ENGAGED-ff3b81?style=for-the-badge&labelColor=0d1117&logo=rocket&logoColor=ff3b81" />
+<p align="center">
+  <img src="https://img.shields.io/badge/TRACKED_PROJECTS-286+-00E5FF?style=for-the-badge&labelColor=0d1117&logo=git&logoColor=00E5FF" />
+  <img src="https://img.shields.io/badge/SHIPPED_IN_PROD-160+-ff3b81?style=for-the-badge&labelColor=0d1117&logo=checkmarx&logoColor=ff3b81" />
+  <img src="https://img.shields.io/badge/DEPLOYMENT_VELOCITY-MAXIMAL-00C7B7?style=for-the-badge&labelColor=0d1117&logo=fast-forward&logoColor=00C7B7" />
+  <img src="https://img.shields.io/badge/UPTIME-99.99%25-a855f7?style=for-the-badge&labelColor=0d1117&logo=server&logoColor=a855f7" />
+</p>
 
 </div>
 
 <div align="center">
 
-### ***The Philosophy: Ship > Perfect***
+### ***The Builder's Creed: Ship > Overthink***
 
 > ### ***"You don't get better at building by planning.***
 > ### ***You get better by shipping."***
 
-### ***Real builders iterate with users. Not with perfectionism.***
-
 </div>
 
-| **Principle** | **Why It Matters** | **Result** |
-|:---:|:---|:---|
-| ⚡ ***Execution Over Hesitation*** | ***Talk is free. Shipping is proof.*** | **_Credibility builds_** |
-| 🚀 ***Done Over Perfect*** | ***80% live beats 100% in a drawer.*** | **_Momentum compounds_** |
-| 🔄 ***Iteration Over Ego*** | ***User feedback > assumptions.*** | **_Products improve_** |
-| 🎯 ***Speed Over Perfection*** | ***Fast failure beats slow success.*** | **_You win_** |
-
-<div align="center">
-
-### ***The Internet Rewards Builders, Not Drafts.***
-
-</div>
+| **Principle** | **Why It Wins** | **Direct Outcome** |
+|:---|:---|:---|
+| ⚡ ***Execution Over Hesitation*** | Talk is cheap. Deployed code in production is irrefutable proof. | **_Unshakable credibility & live leverage_** |
+| 🚀 ***Done Over Perfect*** | 80% live in user hands beats 100% trapped inside a local repo. | **_Compound momentum & faster learning_** |
+| 🔄 ***Iteration Over Ego*** | Live user feedback immediately disproves theoretical assumptions. | **_Products improve 10x faster_** |
+| 🛡️ ***Sovereignty Over Lock-in*** | Own your compute, keep keys local, control your destiny. | **_Zero outages, zero telemetry leaks_** |
 
 ---
 
 <div align="center">
 
-# ⚡ ***WHAT I BUILD***
+# ⚙️ ***THE TECHNICAL ARSENAL***
 
-### ***The Complete Suite of Systems***
+### ***Engineered for Speed, Scalability, and Mathematical Precision***
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=astro,react,vite,ts,nodejs,python,rust,tailwind,threejs,supabase,docker,linux,github,postman" alt="Tech Stack Icons" />
+</p>
 
 </div>
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-## 🌐 ***Business Websites***
-
-### ***That Actually Convert***
-
-- ⚡ ***Sub-2s load times*** (not negotiable)
-- 📱 ***Mobile-first*** by default
-- 🎯 ***Conversion-optimized*** layouts
-- 🔍 ***SEO architecture*** built-in
-- 🚀 ***1-click deploy*** pipelines
-- 💰 ***High-intent landing pages***
-
-</td>
-
-<td width="50%" align="center">
-
-## 🤖 ***AI Employee Systems***
-
-### ***That Scale Your Output***
-
-- 🤖 ***Support agents*** answering instantly
-- 🎯 ***Lead qualifiers*** working 24/7
-- ⚙️ ***Workflow automation*** everywhere
-- 🧠 ***Agent orchestration*** systems
-- 🛠️ ***Internal AI tooling*** custom-built
-- 📞 ***Voice + chat interfaces*** ready
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" align="center">
-
-## 📈 ***Lead Generation***
-
-### ***That Fills Your Pipeline***
-
-- 📄 ***High-converting*** landing pages
-- 🔀 ***Multi-stage funnels*** optimized
-- 📋 ***Form pipelines*** with AI qualification
-- 🔗 ***CRM integrations*** seamless
-- 📧 ***Automated sequences*** intelligent
-- 💌 ***Lead scoring*** real-time
-
-</td>
-
-<td width="50%" align="center">
-
-## 🛠️ ***Custom Software***
-
-### ***Built for Your Business***
-
-- 📊 ***Internal dashboards*** real-time
-- ⚙️ ***Workflow tooling*** specialized
-- 🔌 ***API systems*** robust
-- 🗄️ ***Supabase backends*** scalable
-- ⚡ ***Edge functions*** global
-- 🔐 ***Secure architecture*** enterprise
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-# ⚙️ ***CURRENT TECH STACK***
-
-### ***The Tools That Don't Slow Us Down***
-
-<img src="https://skillicons.dev/icons?i=astro,react,vite,ts,nodejs,netlify,supabase,docker,linux,github" alt="Tech stack: Astro, React, Vite, TypeScript, Node.js, Netlify, Supabase, Docker, Linux, GitHub" />
 
 <br/>
 
-| **Tool** | **Why It's Here** | **What It Does** |
-|:---:|:---|:---|
-| ***Astro*** | **Static generation meets dynamic** | **_Blazing-fast, flexible_** |
-| ***React*** | **Component-driven UI** | **_Modular, scalable_** |
-| ***TypeScript*** | **Type safety at scale** | **_Fewer bugs, more confidence_** |
-| ***Node.js*** | **Server-side logic** | **_Fast, event-driven_** |
-| ***Supabase*** | **Open-source Firebase** | **_Real-time, scalable DB_** |
-| ***Netlify*** | **Deploy faster than competitors** | **_Edge, serverless, DDoS-proof_** |
-| ***Docker*** | **Consistent everywhere** | **_Dev = prod = perfect_** |
+<div align="center">
+
+| **Layer** | **Technologies & Frameworks** | **Specialized Implementation** |
+|:---|:---|:---|
+| 🤖 **AI & Swarm Engines** | **Antigravity (`agy`), Nous Hermes, Grok, Ollama, DeepSeek, DSPy, Axolotl, Unsloth** | Local multi-agent task DAGs, structured JSON generation, BYOK key vaults, fine-tuning |
+| 🔬 **Observability & Math** | **Linear Algebra ($QK^T$), Multivariable Calculus ($
+abla L$), Shannon Entropy** | Live attention heatmaps, entropy token uncertainty, AdamW momentum telemetry |
+| 🌐 **Frontend & 3D Web** | **Astro, React 19, Vite, TypeScript, Tailwind CSS, Three.js / R3F, Framer Motion** | Ultra-fast static sites, kinetic 3D WebGL arenas, cybernetic design systems |
+| ⚡ **Backend & Edge** | **Node.js, Python 3.12, FastMCP, Netlify Functions & Edge, Supabase (Postgres & RLS)** | Serverless microservices, real-time database subscriptions, WebSocket message buses |
+| 🔒 **Security & OSINT** | **Parrot Security OS, SubSweep, HexStrike, Argon2id, CISA GRC audit frameworks** | Attack surface discovery, local loopback encryption, automated vulnerability audits |
+| 🚢 **DevOps & Infra** | **Docker, Netlify CI/CD, QEMU / KVM, Git, GitHub Actions, Linux** | Isolated testing sandboxes, automatic global edge builds, instant atomic rollbacks |
 
 </div>
 
@@ -397,30 +338,42 @@ Growth stalls.
 
 <div align="center">
 
-# 🔒 ***SECURITY + PERFORMANCE***
+# 🌐 ***FEATURED LIVE DEPLOYMENTS***
 
-### ***Non-Negotiable. Non-Compromisable.***
-
-</div>
-
-<div align="center">
-
-> ### ***"A fast site that breaks under load is worse than a slow, reliable one."***
-> ### ***Every deployment must be battle-tested.***
+### ***Explore live products shipped across the ecosystem***
 
 </div>
 
 <div align="center">
+
+| **Project** | **Category** | **Live URL** | **Highlights & Capabilities** |
+|:---|:---|:---:|:---|
+| 🏛️ **Zoth Studio Hub** | *AI / Developer Tools* | [**`nullai.tech`**](https://nullai.tech) | Local-first multi-agent studio, visual DAG composer, 3D kinetic arena |
+| ⚡ **757 Tech** | *AI Employee Agency* | [**`757tech.pro`**](https://757tech.pro) | 24/7 AI employee setups, lead intake engines & business automations |
+| 🚀 **Neal Frazier Flagship** | *Personal Brand / Systems* | [**`nealfrazier.tech`**](https://nealfrazier.tech) | Conversion machines, client case studies, high-leverage software |
+| 🕶️ **Hacker Portfolio v2** | *Cybersecurity / Portfolio* | [**`hacker-portfolio.757tech.pro`**](https://hacker-portfolio.757tech.pro) | Cybernetic interactive portfolio with live terminal interface |
+| 🏛️ **Stoicism 3D Portal** | *3D WebGL / Philosophy* | [**`stoicism.nullai.tech`**](https://stoicism.nullai.tech) | Interactive Three.js particle canvas & Marcus Aurelius wisdom engine |
+| 🎧 **SonicVision AI** | *Audio / Creative AI* | [**`sonicvision-ai.nullai.tech`**](https://sonicvision-ai.nullai.tech) | AI spectrogram visualizer and procedural sound studio |
+| 📚 **Neal Bliki** | *Digital Garden / Knowledge* | [**`www.nullai.tech`**](https://www.nullai.tech) | Comprehensive knowledge base, essays, and architectural blueprints |
+
+</div>
+
+---
+
+<div align="center">
+
+# 🔒 ***SECURITY, ACCESSIBILITY & PERFORMANCE BASELINE***
+
+### ***Non-Negotiable. Non-Compromisable. Applied to Every Deployment.***
 
 ```
-✅ SECURITY HARDENING         No vulnerabilities ship
-✅ SEO VALIDATION             Found, indexed, ranking
-✅ FORM DETECTION TESTING     Lead capture verified
-✅ PERFORMANCE OPTIMIZATION   <2s load time (always)
-✅ ACCESSIBILITY CHECKS       WCAG 2.1 AA (minimum)
-✅ ROLLBACK CLARITY           10-second recovery
-✅ ZERO-DOWNTIME DEPLOY       Customers never notice
-✅ MONITORING ALERTS          Issues caught instantly
+✅ ZERO-CLOUD LEAKAGE        All sensitive keys & telemetry stay on loopback (127.0.0.1:8484)
+✅ ENTERPRISE ENCRYPTION     Argon2id + XChaCha20-Poly1305 cryptographic vaults
+✅ SUB-2S LOAD TIMES         Edge-rendered, assets compressed, sub-second TTFB worldwide
+✅ WCAG 2.1 AA ACCESSIBLE    Keyboard navigability, high contrast ratios, screen reader ready
+✅ SEO & AEO OPTIMIZED       Ranked for Google and optimized for Answer Engines (Perplexity/ChatGPT)
+✅ ATOMIC ROLLBACKS          10-second instant recovery on all edge deployments
+✅ ZERO-DOWNTIME CI/CD       Seamless background builds that never interrupt users
 ```
 
 </div>
@@ -431,61 +384,62 @@ Growth stalls.
 
 # 📡 ***LET'S BUILD SOMETHING INSANE***
 
-### ***The journey starts with a single message.***
+### ***Have a high-impact vision? Let's turn it into deployed reality.***
 
 <br/>
 
 <a href="https://nealfrazier.tech">
-  <img src="https://img.shields.io/badge/🌐_VISIT_WEBSITE-nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117&logo=globe&logoColor=00E5FF&logoWidth=20" alt="Visit website" />
+  <img src="https://img.shields.io/badge/🌐_VISIT_MAIN_SITE-nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117&logo=globe&logoColor=00E5FF&logoWidth=20" alt="Visit website" />
 </a>
-
-<br/><br/>
-
+&nbsp;&nbsp;
 <a href="https://757tech.pro">
-  <img src="https://img.shields.io/badge/⚡_AI_SERVICES-757tech.pro-ff3b81?style=for-the-badge&labelColor=0d1117&logo=bolt&logoColor=ff3b81&logoWidth=20" alt="AI Services" />
+  <img src="https://img.shields.io/badge/⚡_DEPLOY_AI_EMPLOYEES-757tech.pro-ff3b81?style=for-the-badge&labelColor=0d1117&logo=bolt&logoColor=ff3b81&logoWidth=20" alt="AI Services" />
+</a>
+&nbsp;&nbsp;
+<a href="https://nullai.tech">
+  <img src="https://img.shields.io/badge/🏛️_EXPLORE_ZOTH-nullai.tech-a855f7?style=for-the-badge&labelColor=0d1117&logo=atom&logoColor=a855f7&logoWidth=20" alt="Explore Zoth" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:business@nealfrazier.tech">
+  <img src="https://img.shields.io/badge/📩_EMAIL_ME-business@nealfrazier.tech-00C7B7?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=00C7B7&logoWidth=20" alt="Send email" />
 </a>
 
 <br/><br/>
 
-<a href="mailto:business@nealfrazier.tech">
-  <img src="https://img.shields.io/badge/📩_EMAIL_ME-business@nealfrazier.tech-00E5FF?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=00E5FF&logoWidth=20" alt="Send email" />
-</a>
+<!-- CYBERNETIC SINE-WAVE PULSE ANIMATED SVG -->
+<svg width="300" height="90" viewBox="0 0 300 90" style="margin: 20px auto; display: block;">
+  <defs>
+    <filter id="waveGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
 
-</div>
-
----
-
-<div align="center">
-
-<svg width="200" height="120" viewBox="0 0 200 120" style="margin: 20px auto; display: block;">
-  <!-- Wave 1 -->
-  <path d="M 0 60 Q 25 40 50 60 T 100 60 T 150 60 T 200 60" fill="none" stroke="00E5FF" stroke-width="2" opacity="0.8">
-    <animate attributeName="d" values="M 0 60 Q 25 40 50 60 T 100 60 T 150 60 T 200 60;M 0 60 Q 25 80 50 60 T 100 60 T 150 60 T 200 60;M 0 60 Q 25 40 50 60 T 100 60 T 150 60 T 200 60" dur="2s" repeatCount="indefinite"/>
+  <!-- Cyan High-Frequency Wave -->
+  <path d="M 0 45 Q 37.5 20 75 45 T 150 45 T 225 45 T 300 45" fill="none" stroke="#00E5FF" stroke-width="2.5" opacity="0.85" filter="url(#waveGlow)">
+    <animate attributeName="d" values="M 0 45 Q 37.5 20 75 45 T 150 45 T 225 45 T 300 45; M 0 45 Q 37.5 70 75 45 T 150 45 T 225 45 T 300 45; M 0 45 Q 37.5 20 75 45 T 150 45 T 225 45 T 300 45" dur="3s" repeatCount="indefinite"/>
   </path>
-  <!-- Wave 2 -->
-  <path d="M 0 60 Q 25 50 50 60 T 100 60 T 150 60 T 200 60" fill="none" stroke="00C7B7" stroke-width="2" opacity="0.5">
-    <animate attributeName="d" values="M 0 60 Q 25 50 50 60 T 100 60 T 150 60 T 200 60;M 0 60 Q 25 70 50 60 T 100 60 T 150 60 T 200 60;M 0 60 Q 25 50 50 60 T 100 60 T 150 60 T 200 60" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Magenta Low-Frequency Wave -->
+  <path d="M 0 45 Q 37.5 32 75 45 T 150 45 T 225 45 T 300 45" fill="none" stroke="#ff3b81" stroke-width="2" opacity="0.65" filter="url(#waveGlow)">
+    <animate attributeName="d" values="M 0 45 Q 37.5 32 75 45 T 150 45 T 225 45 T 300 45; M 0 45 Q 37.5 58 75 45 T 150 45 T 225 45 T 300 45; M 0 45 Q 37.5 32 75 45 T 150 45 T 225 45 T 300 45" dur="2.2s" repeatCount="indefinite"/>
   </path>
-  <!-- Text -->
-  <text x="100" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="00E5FF">SHIP FASTER</text>
+
+  <!-- Amethyst Slow Drift Wave -->
+  <path d="M 0 45 Q 37.5 40 75 45 T 150 45 T 225 45 T 300 45" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="d" values="M 0 45 Q 37.5 40 75 45 T 150 45 T 225 45 T 300 45; M 0 45 Q 37.5 50 75 45 T 150 45 T 225 45 T 300 45; M 0 45 Q 37.5 40 75 45 T 150 45 T 225 45 T 300 45" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Kinetic Typography -->
+  <text x="150" y="80" text-anchor="middle" font-family="monospace" font-size="13" font-weight="900" fill="#00E5FF" letter-spacing="3">SHIP FASTER • NEVER STOP</text>
 </svg>
 
-<br/>
-
-### ***Status: Always Building***
-
-**_Last updated: 2026-05-18_**
-
-### ***Building businesses that actually grow.***
-
-</div>
+### ***Status: Building, Shipping & Orchestrating 24/7***
+**_Updated: August 2026_**
 
 ---
 
-<div align="center">
-
-### ***Made with ⚡ by Neal Frazier***
-
-### ***Powered by Netlify • Secured by Practice • Shipped by Momentum***
+### ***Crafted with ⚡ by Neal Frazier (`@1nc0gn30`)***
+### ***Sovereign AI • Mathematical Observability • Deployed by Momentum***
 
 </div>
