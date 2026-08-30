@@ -26,10 +26,6 @@
   <img src="https://img.shields.io/badge/🏛️_ZOTH_STUDIO-nullai.tech-a855f7?style=for-the-badge&labelColor=0d1117&logo=atom&logoColor=a855f7" alt="Zoth Studio" />
 </a>
 &nbsp;&nbsp;
-<a href="https://1nc0gn30.github.io">
-  <img src="https://img.shields.io/badge/🎮_3D_SWARM_ARENA-Live_Interactive-10b981?style=for-the-badge&labelColor=0d1117&logo=three.js&logoColor=10b981" alt="Interactive 3D Arena" />
-</a>
-&nbsp;&nbsp;
 <a href="https://join.netlify.com/yoso7wqaix15">
   <img src="https://img.shields.io/badge/DEPLOYED_ON-NETLIFY-00C7B7?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0d1117" alt="Netlify Partner" />
 </a>
@@ -151,82 +147,103 @@ Whether it's building sovereign AI studios with live tensor math telemetry, coor
 
 <div align="center">
 
-# 🎮 ***INTERACTIVE 3D SWARM ARENA & OBSERVABILITY***
+# 📸 ***SYSTEM SHOWCASE & ARCHITECTURE VAULT***
 
-### ***Experience the Sovereign Multi-Agent Mesh in Interactive 3D WebGL***
-
-<a href="https://1nc0gn30.github.io">
-  <img src="https://img.shields.io/badge/🎮_CLICK_TO_LAUNCH_LIVE_3D_ARENA-00E5FF?style=for-the-badge&labelColor=0d1117&logo=three.js&logoColor=00E5FF" alt="Launch 3D Arena" />
-</a>
-
-<br/><br/>
-
-<!-- ANIMATED ISOMETRIC 3D TESSERACT SVG -->
-<svg width="240" height="240" viewBox="0 0 200 200" style="margin: 0 auto; display: block;">
-  <defs>
-    <filter id="glow3d">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <!-- Dynamic 3D Wireframe Tesseract Structure -->
-  <g transform="translate(100,100)">
-    <!-- Outer Octahedron / Cube rotating in 3D perspective -->
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="14s" repeatCount="indefinite"/>
-      
-      <!-- Outer Frame -->
-      <polygon points="0,-75 65,-37 65,37 0,75 -65,37 -65,-37" fill="none" stroke="#00E5FF" stroke-width="1.8" opacity="0.75" filter="url(#glow3d)">
-        <animate attributeName="stroke" values="#00E5FF;#ff3b81;#a855f7;#00E5FF" dur="8s" repeatCount="indefinite"/>
-      </polygon>
-
-      <!-- Inner Tesseract Core Frame -->
-      <polygon points="0,-38 33,-19 33,19 0,38 -33,19 -33,-19" fill="none" stroke="#ff3b81" stroke-width="1.5" opacity="0.85" filter="url(#glow3d)">
-        <animate attributeName="stroke" values="#ff3b81;#a855f7;#00E5FF;#ff3b81" dur="8s" repeatCount="indefinite"/>
-      </polygon>
-
-      <!-- Connecting Laser Trajectories -->
-      <line x1="0" y1="-75" x2="0" y2="-38" stroke="#a855f7" stroke-width="1.2" opacity="0.6"/>
-      <line x1="65" y1="-37" x2="33" y2="-19" stroke="#a855f7" stroke-width="1.2" opacity="0.6"/>
-      <line x1="65" y1="37" x2="33" y2="19" stroke="#a855f7" stroke-width="1.2" opacity="0.6"/>
-      <line x1="0" y1="75" x2="0" y2="38" stroke="#a855f7" stroke-width="1.2" opacity="0.6"/>
-      <line x1="-65" y1="37" x2="-33" y2="19" stroke="#a855f7" stroke-width="1.2" opacity="0.6"/>
-      <line x1="-65" y1="-37" x2="-33" y2="-19" stroke="#a855f7" stroke-width="1.2" opacity="0.6"/>
-
-      <!-- Glowing Vertex Nodes -->
-      <circle cx="0" cy="-75" r="4" fill="#00E5FF" filter="url(#glow3d)"/>
-      <circle cx="65" cy="-37" r="4" fill="#ff3b81" filter="url(#glow3d)"/>
-      <circle cx="65" cy="37" r="4" fill="#a855f7" filter="url(#glow3d)"/>
-      <circle cx="0" cy="75" r="4" fill="#10b981" filter="url(#glow3d)"/>
-      <circle cx="-65" cy="37" r="4" fill="#00E5FF" filter="url(#glow3d)"/>
-      <circle cx="-65" cy="-37" r="4" fill="#ff3b81" filter="url(#glow3d)"/>
-
-      <circle cx="0" cy="-38" r="3" fill="#ffffff"/>
-      <circle cx="33" cy="-19" r="3" fill="#ffffff"/>
-      <circle cx="33" cy="19" r="3" fill="#ffffff"/>
-      <circle cx="0" cy="38" r="3" fill="#ffffff"/>
-      <circle cx="-33" cy="19" r="3" fill="#ffffff"/>
-      <circle cx="-33" cy="-19" r="3" fill="#ffffff"/>
-    </g>
-
-    <!-- Central Singularity / Sovereign Nucleus -->
-    <circle cx="0" cy="0" r="8" fill="#090d18" stroke="#00E5FF" stroke-width="2" filter="url(#glow3d)">
-      <animate attributeName="r" values="7;10;7" dur="2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-</svg>
+### ***Direct Visual Telemetry Across The Sovereign Multi-Agent Ecosystem***
 
 </div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/zoth_studio_banner.png" alt="Zoth Studio Apex Banner" width="100%" />
+</div>
+
+<br/>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" align="center" valign="top">
+  <img src="assets/hero-command-deck.jpg" alt="Sovereign Operator Deck" width="100%" />
+  <br/>
+  <b>🖥️ Zoth Studio Operator Command Deck (Loopback :8484)</b>
+  <p><small>Bare-metal control plane executing 47+ local CLIs, live terminal streams & encrypted tool runners.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/swarm-arena-battle.jpg" alt="3D Kinetic Swarm Arena" width="100%" />
+  <br/>
+  <b>🛰️ 3D Kinetic Multi-Agent Swarm Arena</b>
+  <p><small>Spatial coordination engine visualizing real-time agent tasks, thought trees, and message buses.</small></p>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img src="assets/dag-composer-hero.jpg" alt="Visual DAG Agent Composer" width="100%" />
+  <br/>
+  <b>📐 Visual DAG Playbook Composer</b>
+  <p><small>Interactive node graph chaining local LLMs, cloud frontiers, and security tools into deterministic playbooks.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/model-foundry-hero.jpg" alt="Open-Weight Model Foundry" width="100%" />
+  <br/>
+  <b>🧬 Sovereign Model Foundry & Cyber Spirits</b>
+  <p><small>Nous Hermes, DeepSeek, Qwen, and custom LoRA adapters operating with specialized task spirits.</small></p>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img src="assets/section-arsenal.jpg" alt="Parrot OS Tool Arsenal" width="100%" />
+  <br/>
+  <b>🛡️ 298+ Security & OSINT Tool Arsenal</b>
+  <p><small>Integrated recon scanners, subdomain mapping, payload visualizers, and automated GRC auditors.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/atlas_constellation.jpg" alt="Master Atlas Ecosystem" width="100%" />
+  <br/>
+  <b>🗺️ 15-Category Master Project Constellation</b>
+  <p><small>286+ projects tracked, 160+ shipped live across Astro, React, Netlify, Supabase, and Rust.</small></p>
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
 
-> 💡 **Launch the full 3D interactive cockpit** with 360° orbital controls, particle swarms, real-time tensor lasers, and procedural audio synthesis directly in [`index.html`](https://1nc0gn30.github.io).
+### 📂 ***Core Ecosystem Categories***
 
 </div>
+
+<table align="center" width="100%">
+<tr align="center">
+<td width="33.3%">
+  <img src="assets/03-ai-agents-llm-2026.jpg" width="100%" /><br/>
+  <b>🤖 AI Agents & LLM Swarms</b>
+</td>
+<td width="33.3%">
+  <img src="assets/07-security-osint-2026.jpg" width="100%" /><br/>
+  <b>🔒 Security & OSINT Scanner</b>
+</td>
+<td width="33.3%">
+  <img src="assets/02-netlify-ax-creator-2026.jpg" width="100%" /><br/>
+  <b>⚡ Edge & AX Creator Foundry</b>
+</td>
+</tr>
+<tr align="center">
+<td width="33.3%">
+  <img src="assets/13-creative-media-2026.jpg" width="100%" /><br/>
+  <b>🎬 Creative Media & Video DSP</b>
+</td>
+<td width="33.3%">
+  <img src="assets/04-web-apps-saas-2026.jpg" width="100%" /><br/>
+  <b>🌐 Web Apps & SaaS Engines</b>
+</td>
+<td width="33.3%">
+  <img src="assets/05-portfolio-agency-2026.jpg" width="100%" /><br/>
+  <b>🚀 High-Converting Portfolios</b>
+</td>
+</tr>
+</table>
 
 ---
 
