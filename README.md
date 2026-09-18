@@ -141,7 +141,7 @@
 </td>
 <td width="33.3%">
 <b>🛰️ Swarm Telemetry Bus</b><br/>
-<code>ONLINE • AGY + Hermes + Grok</code><br/>
+<code>ONLINE • AGY + Hermes + Grok + Azoth</code><br/>
 <small>Asynchronous Multi-Agent Protocol (:8989)</small>
 </td>
 <td width="33.3%">
@@ -181,14 +181,17 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 # 📸 ***SYSTEM SHOWCASE & ARCHITECTURE VAULT***
 
-### ***Visual Telemetry Across The Sovereign Multi-Agent Ecosystem***
+### ***Direct Visual Telemetry Across The Sovereign Multi-Agent Ecosystem***
 
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="assets/zoth_studio_banner.png" alt="Zoth Studio Apex Banner" width="100%" />
+  <a href="https://nullai.tech" target="_blank">
+    <img src="assets/zoth_master_banner.jpg" alt="Zoth Studio Sovereign Neural Cockpit" width="100%" />
+  </a>
+  <p><b>🏛️ Zoth Studio & NullAI Sovereign Neural Engine</b> — <i>Bare-metal local orchestration, real-time math telemetry, and multi-agent coordination.</i></p>
 </div>
 
 <br/>
@@ -196,58 +199,60 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 <table align="center" width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
-  <img src="assets/hero-command-deck.jpg" alt="Sovereign Operator Deck" width="100%" />
-  <br/>
-  <b>🖥️ Zoth Studio Operator Command Deck (Loopback :8484)</b>
-  <p><small>Bare-metal control plane executing 47+ local CLIs, live terminal streams, and encrypted tool runners.</small></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <img src="assets/swarm-arena-battle.jpg" alt="3D Kinetic Swarm Arena" width="100%" />
+  <img src="assets/swarm_neural_arena.jpg" alt="3D Kinetic Swarm Arena" width="100%" />
   <br/>
   <b>🛰️ 3D Kinetic Multi-Agent Swarm Arena</b>
-  <p><small>Spatial WebGL coordination engine visualizing real-time agent tasks, thought trees, and message buses.</small></p>
+  <p><small>Spatial WebGL coordination engine executing DAG task chains across Antigravity, Hermes, Grok, and Azoth.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/tensor_math_observability.jpg" alt="3-Pillar Tensor Observability Lab" width="100%" />
+  <br/>
+  <b>🔬 3-Pillar Tensor Math Observability</b>
+  <p><small>Live transformer attention heatmaps ($\text{softmax}(QK^T/\sqrt{d_k})V$), loss gradient vector fields, and Shannon entropy uncertainty curves.</small></p>
 </td>
 </tr>
 <tr>
+<td width="50%" align="center" valign="top">
+  <a href="https://757tech.pro" target="_blank">
+    <img src="assets/ai_employee_engine.jpg" alt="757tech.pro AI Employee Command Center" width="100%" />
+  </a>
+  <br/>
+  <b>⚡ AI Employee Command Center (757tech.pro)</b>
+  <p><small>Autonomous 24/7 client intake, &lt;30s lead qualification engines, CRM automation, and calendar bookings.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/security_osint_arsenal.jpg" alt="Parrot OS Security & OSINT Arsenal" width="100%" />
+  <br/>
+  <b>🛡️ Parrot OS Security & OSINT Recon Arsenal</b>
+  <p><small>298+ integrated security tools, subdomain reconnaissance radar, Argon2id encrypted vaults, and loopback isolation (:8484).</small></p>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img src="assets/creative_media_studio.jpg" alt="Linux Creative Media DSP & Gesture Studio" width="100%" />
+  <br/>
+  <b>🎬 Linux Creative DSP & MediaPipe Gesture Studio</b>
+  <p><small>MediaPipe 21-point hand tracking, procedural Web Audio DSP, and dynamic 9:16 Shorts / 16:9 widescreen video processing.</small></p>
+</td>
 <td width="50%" align="center" valign="top">
   <img src="assets/dag-composer-hero.jpg" alt="Visual DAG Agent Composer" width="100%" />
   <br/>
   <b>📐 Visual DAG Playbook Composer</b>
   <p><small>Interactive node graph chaining local LLMs, cloud frontiers, and security tools into deterministic workflows.</small></p>
 </td>
+</tr>
+<tr>
 <td width="50%" align="center" valign="top">
   <img src="assets/model-foundry-hero.jpg" alt="Open-Weight Model Foundry" width="100%" />
   <br/>
   <b>🧬 Sovereign Model Foundry & Cyber Spirits</b>
   <p><small>Nous Hermes, DeepSeek, Qwen, and custom LoRA adapters operating with specialized task spirits.</small></p>
 </td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-  <img src="assets/section-arsenal.jpg" alt="Parrot OS Tool Arsenal" width="100%" />
-  <br/>
-  <b>🛡️ 298+ Security & OSINT Tool Arsenal</b>
-  <p><small>Integrated recon scanners, subdomain mapping, payload visualizers, and automated CISA/GRC auditors.</small></p>
-</td>
 <td width="50%" align="center" valign="top">
   <img src="assets/atlas_constellation.jpg" alt="Master Atlas Ecosystem" width="100%" />
   <br/>
   <b>🗺️ 15-Category Master Project Constellation</b>
   <p><small>286+ projects tracked, 160+ shipped live across Astro, React, Netlify, Supabase, and Rust.</small></p>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-  <img src="assets/brand-system-overwatch.jpg" alt="Brand System & Design Tokens" width="100%" />
-  <br/>
-  <b>🎨 Cybernetic Design System & Token Overwatch</b>
-  <p><small>High-contrast neon design tokens, Glassmorphism, and responsive fixed-resolution canvas architectures.</small></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <img src="assets/hero-pet-roster.jpg" alt="Autonomous Cyber Spirits" width="100%" />
-  <br/>
-  <b>👾 Cyber Mascot Roster & Interactive Spirits</b>
-  <p><small>Autonomous AI personas and specialized prompt spirits powering interactive terminal companions.</small></p>
 </td>
 </tr>
 </table>
@@ -306,7 +311,7 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 | ⚡ **High-Velocity Edge Deployments** | Astro, React 19, Vite, TypeScript, Tailwind CSS, Netlify Edge Functions, Supabase Postgres RLS | Sub-second TTFB, instant global edge routing, and automated Git-to-production CI/CD pipelines |
 | 🔒 **Zero-Cloud-Leak Sovereignty** | Private loopback isolation (`127.0.0.1:8484`), Argon2id + XChaCha20-Poly1305 hardware-bound vaults | Complete intellectual property and credential protection with zero third-party telemetry exposure |
 | 📈 **Autonomous Business Pipelines** | 24/7 AI lead intake agents, real-time qualification engines, intelligent CRM syncing, automated booking | <30-second inbound response times, zero dropped customer inquiries, and automated revenue conversion |
-| 🎬 **Linux Creative & Video DSP** | Computer vision cursor tracking, procedural Web Audio DSP, OmniPost auto-repurposing | Studio-grade video assets, automated 9:16 Shorts generation, and interactive 3D WebGL visuals |
+| 🎬 **Linux Creative & Video DSP** | MediaPipe 21-point tracking, procedural Web Audio DSP, OmniPost auto-repurposing | Studio-grade video assets, automated 9:16 Shorts generation, and interactive 3D WebGL visuals |
 
 ---
 
