@@ -300,6 +300,90 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 <div align="center">
 
+## 🛰️ ***SOVEREIGN MULTI-AGENT BUS PROTOCOL (:8989)***
+
+### ***Asynchronous DAG Scheduling & Autonomous Inter-Agent Handoffs***
+
+<!-- ANIMATED SWARM BUS FLOW SVG -->
+<svg width="100%" height="220" viewBox="0 0 800 220" style="margin: 20px auto; display: block;">
+  <defs>
+    <linearGradient id="busGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="33%" stop-color="#ff3b81"/>
+      <stop offset="66%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Grid -->
+  <rect x="10" y="10" width="780" height="200" rx="14" fill="#090d18" stroke="rgba(0,229,255,0.25)" stroke-width="1.5"/>
+
+  <!-- Main Bus Line -->
+  <line x1="80" y1="110" x2="720" y2="110" stroke="url(#busGrad)" stroke-width="3.5" filter="url(#glow)"/>
+
+  <!-- Swarm Nodes -->
+  <!-- Node 1: Antigravity -->
+  <g transform="translate(120, 110)">
+    <circle r="36" fill="#03050a" stroke="#00E5FF" stroke-width="2.5" filter="url(#glow)"/>
+    <text y="-8" text-anchor="middle" font-family="monospace" font-size="11" font-weight="900" fill="#00E5FF">AGY</text>
+    <text y="10" text-anchor="middle" font-family="monospace" font-size="9" fill="#94a3b8">Orchestrator</text>
+    <text y="22" text-anchor="middle" font-family="monospace" font-size="8" fill="#00E5FF">:8989</text>
+  </g>
+
+  <!-- Node 2: Nous Hermes -->
+  <g transform="translate(300, 110)">
+    <circle r="36" fill="#03050a" stroke="#ff3b81" stroke-width="2.5" filter="url(#glow)"/>
+    <text y="-8" text-anchor="middle" font-family="monospace" font-size="11" font-weight="900" fill="#ff3b81">HERMES</text>
+    <text y="10" text-anchor="middle" font-family="monospace" font-size="9" fill="#94a3b8">DAG Worker</text>
+    <text y="22" text-anchor="middle" font-family="monospace" font-size="8" fill="#ff3b81">FastMCP</text>
+  </g>
+
+  <!-- Node 3: Grok Autonomous -->
+  <g transform="translate(480, 110)">
+    <circle r="36" fill="#03050a" stroke="#a855f7" stroke-width="2.5" filter="url(#glow)"/>
+    <text y="-8" text-anchor="middle" font-family="monospace" font-size="11" font-weight="900" fill="#a855f7">GROK</text>
+    <text y="10" text-anchor="middle" font-family="monospace" font-size="9" fill="#94a3b8">OSINT Scout</text>
+    <text y="22" text-anchor="middle" font-family="monospace" font-size="8" fill="#a855f7">x.ai API</text>
+  </g>
+
+  <!-- Node 4: Azoth Daemon -->
+  <g transform="translate(660, 110)">
+    <circle r="36" fill="#03050a" stroke="#10b981" stroke-width="2.5" filter="url(#glow)"/>
+    <text y="-8" text-anchor="middle" font-family="monospace" font-size="11" font-weight="900" fill="#10b981">AZOTH</text>
+    <text y="10" text-anchor="middle" font-family="monospace" font-size="9" fill="#94a3b8">Daemon</text>
+    <text y="22" text-anchor="middle" font-family="monospace" font-size="8" fill="#10b981">:8484</text>
+  </g>
+
+  <!-- Animated Flying Packets -->
+  <circle r="5.5" fill="#00E5FF" filter="url(#glow)">
+    <animateMotion path="M 120 110 L 300 110" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#ff3b81" filter="url(#glow)">
+    <animateMotion path="M 300 110 L 480 110" dur="2.4s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#a855f7" filter="url(#glow)">
+    <animateMotion path="M 480 110 L 660 110" dur="2.2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5.5" fill="#10b981" filter="url(#glow)">
+    <animateMotion path="M 660 110 L 120 110" dur="3.5s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Telemetry Subtext -->
+  <text x="400" y="195" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#94a3b8">
+    ASYNCHRONOUS SWARM BUS • JSON-RPC / FASTMCP ENCRYPTED HANDOFFS
+  </text>
+</svg>
+
+</div>
+
+---
+
+<div align="center">
+
 ## ⚡ ***THE SIX PILLARS OF OPERATIONAL LEVERAGE***
 
 </div>
@@ -583,7 +667,7 @@ cd 1nc0gn30
 
 # 2. Launch Local 3D Swarm Telemetry Arena (:8088 / :8484)
 python3 -m http.server 8088
-# Navigate to http://localhost:8088 to inspect the live 3D WebGL node swarm
+# Navigate to http://localhost:8088 to inspect the live 3D WebGL node swarm & interactive REPL
 
 # 3. Connect to Asynchronous Multi-Agent Bus (:8989)
 curl -X POST http://127.0.0.1:8989/v1/swarm/ping \

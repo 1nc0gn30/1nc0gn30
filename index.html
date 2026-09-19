@@ -149,11 +149,11 @@
       border: 1px solid rgba(0, 229, 255, 0.2);
       border-radius: 8px;
       padding: 10px;
-      height: 110px;
+      height: 95px;
       overflow-y: hidden;
       font-size: 10px;
       color: #38bdf8;
-      line-height: 1.5;
+      line-height: 1.4;
     }
     .log-entry {
       opacity: 0.85;
@@ -168,7 +168,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 8px;
-      margin-top: 14px;
+      margin-top: 12px;
     }
     .action-btn {
       background: rgba(0, 229, 255, 0.08);
@@ -204,6 +204,60 @@
       border-color: #ff3b81;
       box-shadow: 0 0 16px rgba(255, 59, 129, 0.5);
     }
+
+    /* Interactive REPL Terminal Drawer */
+    .repl-drawer {
+      position: absolute;
+      bottom: 85px;
+      left: 24px;
+      width: 420px;
+      background: rgba(9, 13, 24, 0.94);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+      border-radius: 12px;
+      padding: 14px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.75);
+      font-size: 11px;
+    }
+    .repl-header {
+      display: flex;
+      justify-content: space-between;
+      color: #00E5FF;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+      padding-bottom: 6px;
+      margin-bottom: 8px;
+    }
+    .repl-output {
+      height: 120px;
+      overflow-y: auto;
+      background: rgba(3, 5, 10, 0.9);
+      border-radius: 6px;
+      padding: 8px;
+      color: #cbd5e1;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      font-size: 10px;
+    }
+    .repl-input-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .repl-prompt {
+      color: #ff3b81;
+      font-weight: 700;
+    }
+    .repl-input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #00E5FF;
+      font-family: 'Fira Code', monospace;
+      font-size: 11px;
+    }
+
     /* Bottom Navigation / Hub bar */
     .hub-bar {
       display: flex;
@@ -251,7 +305,8 @@
       z-index: 50;
       backdrop-filter: blur(12px);
     }
-    @media (max-width: 768px) {
+    @media (max-width: 850px) {
+      .repl-drawer { display: none; }
       .cockpit-panel { display: none; }
       .brand-title { font-size: 18px; }
       .hub-bar { flex-wrap: wrap; border-radius: 12px; padding: 8px; }
@@ -278,6 +333,7 @@
       </div>
     </header>
 
+    <!-- Cockpit Telemetry Side Panel -->
     <div class="cockpit-panel interactive">
       <div class="cockpit-header">
         <span>// SWARM TELEMETRY</span>
@@ -319,6 +375,22 @@
       </div>
     </div>
 
+    <!-- Interactive In-Browser REPL Terminal Drawer -->
+    <div class="repl-drawer interactive">
+      <div class="repl-header">
+        <span>>_ SOVEREIGN CLI CONSOLE</span>
+        <span style="color:#64748b; font-size:10px;">TYPE 'help'</span>
+      </div>
+      <div class="repl-output" id="repl-output">
+        <div style="color:#00E5FF;">Sovereign AI Operator Node Connected (127.0.0.1:8989).</div>
+        <div style="color:#94a3b8;">Type <span style="color:#ff3b81;">help</span>, <span style="color:#a855f7;">agents</span>, <span style="color:#10b981;">focus [name]</span>, or <span style="color:#00E5FF;">math</span>.</div>
+      </div>
+      <div class="repl-input-row">
+        <span class="repl-prompt">neal@zoth:~$</span>
+        <input type="text" class="repl-input" id="repl-input" placeholder="Type command..." autocomplete="off" spellcheck="false" />
+      </div>
+    </div>
+
     <footer style="display:flex; justify-content:center;">
       <nav class="hub-bar interactive">
         <a href="https://nealfrazier.tech" target="_blank" class="hub-link">🌐 Flagship</a>
@@ -350,7 +422,7 @@
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
     controls.maxDistance = 120;
-    controls.minDistance = 10;
+    controls.minDistance = 8;
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.8;
 
@@ -448,12 +520,12 @@
 
     // --- SWARM AGENT NODES ---
     const agents = [
-      { name: "Antigravity (AGY)", role: "Autonomous Orchestrator", color: 0x00E5FF, dist: 11, speed: 0.015, angle: 0 },
-      { name: "Nous Hermes", role: "Task DAG Executor", color: 0xff3b81, dist: 17, speed: 0.010, angle: Math.PI * 0.6 },
-      { name: "Grok Autonomous", role: "OSINT & Research Scout", color: 0xa855f7, dist: 23, speed: 0.008, angle: Math.PI * 1.2 },
-      { name: "Azoth Engine", role: "Sovereign Background Daemon", color: 0x10b981, dist: 15, speed: -0.012, angle: Math.PI * 1.8 },
-      { name: "Maya Video DSP", role: "Web Audio & CV Tracking", color: 0x00E5FF, dist: 19, speed: 0.009, angle: Math.PI * 0.3 },
-      { name: "Ollama / DeepSeek", role: "Local Open-Weight LLM", color: 0xff3b81, dist: 21, speed: -0.007, angle: Math.PI * 0.9 }
+      { id: "antigravity", name: "Antigravity (AGY)", role: "Autonomous Orchestrator", color: 0x00E5FF, dist: 11, speed: 0.015, angle: 0 },
+      { id: "hermes", name: "Nous Hermes", role: "Task DAG Executor", color: 0xff3b81, dist: 17, speed: 0.010, angle: Math.PI * 0.6 },
+      { id: "grok", name: "Grok Autonomous", role: "OSINT & Research Scout", color: 0xa855f7, dist: 23, speed: 0.008, angle: Math.PI * 1.2 },
+      { id: "azoth", name: "Azoth Engine", role: "Sovereign Background Daemon", color: 0x10b981, dist: 15, speed: -0.012, angle: Math.PI * 1.8 },
+      { id: "maya", name: "Maya Video DSP", role: "Web Audio & CV Tracking", color: 0x00E5FF, dist: 19, speed: 0.009, angle: Math.PI * 0.3 },
+      { id: "deepseek", name: "Ollama / DeepSeek", role: "Local Open-Weight LLM", color: 0xff3b81, dist: 21, speed: -0.007, angle: Math.PI * 0.9 }
     ];
 
     const agentMeshes = [];
@@ -554,7 +626,7 @@
       }, 450);
     });
 
-    // --- RAYCASTING FOR INTERACTIVE NODE INSPECTION ---
+    // --- RAYCASTING & CLICK TO FOCUS ---
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
 
@@ -580,6 +652,119 @@
         tooltip.style.display = 'none';
       }
     });
+
+    window.addEventListener('click', (event) => {
+      if (event.target.closest('.interactive')) return;
+      mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+      raycaster.setFromCamera(mouse, camera);
+      const intersects = raycaster.intersectObjects(agentMeshes.map(a => a.mesh));
+      if (intersects.length > 0) {
+        const obj = intersects[0].object;
+        focusAgent(obj.userData.id);
+      }
+    });
+
+    function focusAgent(agentId) {
+      const match = agentMeshes.find(a => a.data.id === agentId || a.data.name.toLowerCase().includes(agentId.toLowerCase()));
+      if (match) {
+        const targetPos = match.mesh.position;
+        camera.position.set(targetPos.x + 8, targetPos.y + 6, targetPos.z + 12);
+        controls.target.copy(targetPos);
+        playCyberPulse(720);
+        printRepl(`[FOCUS] Camera locked to node: ${match.data.name} (${match.data.role})`, "#00E5FF");
+      }
+    }
+
+    // --- REPL CLI HANDLER ---
+    const replInput = document.getElementById('repl-input');
+    const replOutput = document.getElementById('repl-output');
+
+    function printRepl(text, color = "#cbd5e1") {
+      const line = document.createElement('div');
+      line.style.color = color;
+      line.innerText = text;
+      replOutput.appendChild(line);
+      replOutput.scrollTop = replOutput.scrollHeight;
+    }
+
+    replInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const cmd = replInput.value.trim();
+        replInput.value = '';
+        if (!cmd) return;
+        printRepl(`neal@zoth:~$ ${cmd}`, "#ff3b81");
+        playCyberPulse(480);
+        handleCommand(cmd.toLowerCase());
+      }
+    });
+
+    function handleCommand(cmd) {
+      const parts = cmd.split(' ');
+      const action = parts[0];
+      const arg = parts[1];
+
+      switch(action) {
+        case 'help':
+          printRepl("AVAILABLE COMMANDS:", "#00E5FF");
+          printRepl(" - agents / swarm   : List active multi-agent nodes");
+          printRepl(" - focus <name>     : Lock 3D camera to an agent node (e.g. focus hermes)");
+          printRepl(" - math / tensors   : View scaled dot-product attention physics");
+          printRepl(" - vault            : Inspect Argon2id hardware key status");
+          printRepl(" - deploy           : Simulate sub-second edge deployment");
+          printRepl(" - links / contact  : View live links (nealfrazier.tech, X, etc.)");
+          printRepl(" - clear            : Clear terminal console");
+          break;
+        case 'agents':
+        case 'swarm':
+          printRepl("ACTIVE SWARM SPIRITS (PORT :8989):", "#00E5FF");
+          agents.forEach(a => printRepl(` • ${a.name} [${a.role}]`, "#10b981"));
+          break;
+        case 'focus':
+          if (!arg) {
+            printRepl("Usage: focus [antigravity | hermes | grok | azoth | maya | deepseek]", "#ffaa00");
+          } else {
+            focusAgent(arg);
+          }
+          break;
+        case 'math':
+        case 'tensors':
+          printRepl("3-PILLAR MATHEMATICAL OBSERVABILITY:", "#a855f7");
+          printRepl(" 1. Attention: Softmax(QKᵀ / √d_k)V");
+          printRepl(" 2. Gradients: ∇L = ∂L/∂W_q (AdamW Momentum)");
+          printRepl(" 3. Entropy  : H(X) = -∑ p(x) log p(x) Uncertainty");
+          break;
+        case 'vault':
+          printRepl("SOVEREIGN ENCRYPTION STATUS: LOCKED", "#10b981");
+          printRepl(" • Algorithm: Argon2id (Memory-hard) + XChaCha20-Poly1305");
+          printRepl(" • Bind     : 127.0.0.1:8484 (Zero external telemetry)");
+          playCyberPulse(880);
+          break;
+        case 'deploy':
+          printRepl("INITIATING ATOMIC EDGE DEPLOYMENT...", "#00E5FF");
+          setTimeout(() => {
+            printRepl("✔ Production edge build complete in 3.8s (TTFB 11.4ms)", "#10b981");
+            playCyberPulse(940);
+          }, 600);
+          break;
+        case 'links':
+        case 'contact':
+          printRepl("ECOSYSTEM HUBS & CONTACT:", "#00E5FF");
+          printRepl(" • Portfolio : https://nealfrazier.tech");
+          printRepl(" • 𝕏 Handle  : https://x.com/NealFrazierTech");
+          printRepl(" • NullAI    : https://nullai.tech");
+          printRepl(" • Tech Pro  : https://757tech.pro");
+          printRepl(" • Email     : business@nealfrazier.tech");
+          break;
+        case 'clear':
+          replOutput.innerHTML = '';
+          break;
+        default:
+          printRepl(`Command not recognized: '${action}'. Type 'help' for options.`, "#ffaa00");
+          break;
+      }
+    }
 
     // --- RESIZE HANDLER ---
     window.addEventListener('resize', () => {
