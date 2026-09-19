@@ -255,6 +255,20 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
   <p><small>286+ projects tracked, 160+ shipped live across Astro, React, Netlify, Supabase, and Rust.</small></p>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img src="assets/brand-system-overwatch.jpg" alt="Cybernetic Design System" width="100%" />
+  <br/>
+  <b>🎨 Cybernetic Design System & Token Overwatch</b>
+  <p><small>High-contrast neon design tokens, Glassmorphism, and responsive fixed-resolution canvas architectures.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/hero-pet-roster.jpg" alt="Autonomous Cyber Spirits" width="100%" />
+  <br/>
+  <b>👾 Cyber Mascot Roster & Interactive Spirits</b>
+  <p><small>Autonomous AI personas and specialized prompt spirits powering interactive terminal companions.</small></p>
+</td>
+</tr>
 </table>
 
 <br/>
@@ -375,6 +389,84 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
   <!-- Telemetry Subtext -->
   <text x="400" y="195" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#94a3b8">
     ASYNCHRONOUS SWARM BUS • JSON-RPC / FASTMCP ENCRYPTED HANDOFFS
+  </text>
+</svg>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🔬 ***3-PILLAR TENSOR MATHEMATICAL OBSERVABILITY***
+
+### ***Softmax Attention ($QK^T$) • Loss Gradients ($\nabla L$) • Shannon Entropy ($-\sum p \log p$)***
+
+<!-- ANIMATED TENSOR PHYSICS PIPELINE SVG -->
+<svg width="100%" height="210" viewBox="0 0 800 210" style="margin: 20px auto; display: block;">
+  <defs>
+    <linearGradient id="tensorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff3b81"/>
+    </linearGradient>
+    <filter id="tensorGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="10" y="10" width="780" height="190" rx="14" fill="#090d18" stroke="rgba(168,85,247,0.3)" stroke-width="1.5"/>
+
+  <!-- Column 1: Attention Matrix -->
+  <g transform="translate(130, 105)">
+    <circle r="38" fill="#03050a" stroke="#00E5FF" stroke-width="2" filter="url(#tensorGlow)"/>
+    <text y="-10" text-anchor="middle" font-family="monospace" font-size="10" font-weight="900" fill="#00E5FF">ATTENTION</text>
+    <text y="6" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#e2e8f0">Softmax(QKᵀ/√d)</text>
+    <text y="20" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#94a3b8">Heads 0..11</text>
+  </g>
+
+  <!-- Dynamic Wave 1 -->
+  <path d="M 175 105 Q 230 75 285 105" fill="none" stroke="#00E5FF" stroke-width="2.5" filter="url(#tensorGlow)">
+    <animate attributeName="d" values="M 175 105 Q 230 75 285 105; M 175 105 Q 230 135 285 105; M 175 105 Q 230 75 285 105" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Column 2: Loss Gradients -->
+  <g transform="translate(330, 105)">
+    <circle r="38" fill="#03050a" stroke="#a855f7" stroke-width="2" filter="url(#tensorGlow)"/>
+    <text y="-10" text-anchor="middle" font-family="monospace" font-size="10" font-weight="900" fill="#a855f7">GRADIENTS</text>
+    <text y="6" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#e2e8f0">∇L = ∂L/∂W</text>
+    <text y="20" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#94a3b8">AdamW Momentum</text>
+  </g>
+
+  <!-- Dynamic Wave 2 -->
+  <path d="M 375 105 Q 430 135 485 105" fill="none" stroke="#a855f7" stroke-width="2.5" filter="url(#tensorGlow)">
+    <animate attributeName="d" values="M 375 105 Q 430 135 485 105; M 375 105 Q 430 75 485 105; M 375 105 Q 430 135 485 105" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Column 3: Shannon Entropy -->
+  <g transform="translate(530, 105)">
+    <circle r="38" fill="#03050a" stroke="#ff3b81" stroke-width="2" filter="url(#tensorGlow)"/>
+    <text y="-10" text-anchor="middle" font-family="monospace" font-size="10" font-weight="900" fill="#ff3b81">ENTROPY</text>
+    <text y="6" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#e2e8f0">H(X) = -∑ p log p</text>
+    <text y="20" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#94a3b8">Token Uncertainty</text>
+  </g>
+
+  <!-- Dynamic Wave 3 -->
+  <path d="M 575 105 Q 630 75 685 105" fill="none" stroke="#ff3b81" stroke-width="2.5" filter="url(#tensorGlow)">
+    <animate attributeName="d" values="M 575 105 Q 630 75 685 105; M 575 105 Q 630 135 685 105; M 575 105 Q 630 75 685 105" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Column 4: Sovereign Token Generation -->
+  <g transform="translate(710, 105)">
+    <circle r="28" fill="#03050a" stroke="#10b981" stroke-width="2" filter="url(#tensorGlow)"/>
+    <text y="4" text-anchor="middle" font-family="monospace" font-size="16" font-weight="900" fill="#10b981">⚡</text>
+  </g>
+
+  <!-- Flow Label -->
+  <text x="400" y="180" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#94a3b8">
+    PHYSICAL NEURAL OBSERVABILITY • REAL-TIME HARDWARE LOSS TELEMETRY
   </text>
 </svg>
 
