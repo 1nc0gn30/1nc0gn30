@@ -6,10 +6,9 @@
   <title>1nc0gn30 // Sovereign Multi-Agent 3D Swarm Arena</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700;900&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700;900&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/renderers/CSS2DRenderer.js"></script>
   <style>
     * {
       box-sizing: border-box;
@@ -57,74 +56,84 @@
     }
     .brand-title {
       font-family: 'Syne', sans-serif;
-      font-size: 28px;
-      font-weight: 800;
+      font-size: 26px;
+      font-weight: 900;
       color: #00E5FF;
-      text-shadow: 0 0 20px rgba(0, 229, 255, 0.6);
+      text-shadow: 0 0 24px rgba(0, 229, 255, 0.7);
       letter-spacing: 1px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
     }
     .brand-subtitle {
       font-size: 11px;
       color: #94a3b8;
-      letter-spacing: 2px;
+      letter-spacing: 2.5px;
       margin-top: 4px;
+    }
+    .header-badges {
+      display: flex;
+      gap: 10px;
+      align-items: center;
     }
     .status-badge {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 6px 14px;
+      gap: 8px;
+      padding: 6px 16px;
       border-radius: 9999px;
-      background: rgba(9, 13, 24, 0.85);
-      border: 1px solid rgba(0, 229, 255, 0.3);
-      backdrop-filter: blur(12px);
+      background: rgba(9, 13, 24, 0.9);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+      backdrop-filter: blur(16px);
       font-size: 11px;
+      font-weight: 600;
       color: #00E5FF;
+      box-shadow: 0 0 16px rgba(0, 229, 255, 0.2);
     }
     .pulse-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
       background: #00E5FF;
-      box-shadow: 0 0 10px #00E5FF;
-      animation: pulse 1.5s infinite;
+      box-shadow: 0 0 12px #00E5FF;
+      animation: pulse 1.6s infinite;
     }
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 0.3; transform: scale(0.75); }
     }
     /* Cockpit Side Panel */
     .cockpit-panel {
       position: absolute;
-      top: 90px;
+      top: 85px;
       right: 24px;
-      width: 320px;
-      background: rgba(9, 13, 24, 0.88);
-      border: 1px solid rgba(0, 229, 255, 0.25);
-      border-radius: 12px;
+      width: 340px;
+      background: rgba(9, 13, 24, 0.92);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 14px;
       padding: 18px;
-      backdrop-filter: blur(16px);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
       font-size: 12px;
     }
     .cockpit-header {
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 700;
       color: #ff3b81;
       text-transform: uppercase;
-      letter-spacing: 1.5px;
+      letter-spacing: 2px;
       margin-bottom: 12px;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 59, 129, 0.2);
+      padding-bottom: 8px;
     }
     .telemetry-row {
       display: flex;
       justify-content: space-between;
-      padding: 6px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
     .telemetry-label {
       color: #64748b;
@@ -133,6 +142,28 @@
       color: #00E5FF;
       font-weight: 600;
     }
+    /* Terminal Log Stream in Cockpit */
+    .terminal-stream {
+      margin-top: 12px;
+      background: rgba(3, 5, 10, 0.85);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+      border-radius: 8px;
+      padding: 10px;
+      height: 110px;
+      overflow-y: hidden;
+      font-size: 10px;
+      color: #38bdf8;
+      line-height: 1.5;
+    }
+    .log-entry {
+      opacity: 0.85;
+      animation: fadeIn 0.3s ease;
+    }
+    .log-cyan { color: #00E5FF; }
+    .log-pink { color: #ff3b81; }
+    .log-purple { color: #a855f7; }
+    .log-green { color: #10b981; }
+
     .controls-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -141,9 +172,9 @@
     }
     .action-btn {
       background: rgba(0, 229, 255, 0.08);
-      border: 1px solid rgba(0, 229, 255, 0.3);
+      border: 1px solid rgba(0, 229, 255, 0.35);
       color: #00E5FF;
-      padding: 8px 12px;
+      padding: 8px 10px;
       border-radius: 6px;
       font-family: 'Fira Code', monospace;
       font-size: 11px;
@@ -158,20 +189,20 @@
       gap: 6px;
     }
     .action-btn:hover {
-      background: rgba(0, 229, 255, 0.2);
+      background: rgba(0, 229, 255, 0.25);
       border-color: #00E5FF;
-      box-shadow: 0 0 12px rgba(0, 229, 255, 0.4);
+      box-shadow: 0 0 16px rgba(0, 229, 255, 0.5);
       transform: translateY(-1px);
     }
     .action-btn.pink {
       background: rgba(255, 59, 129, 0.08);
-      border-color: rgba(255, 59, 129, 0.3);
+      border-color: rgba(255, 59, 129, 0.35);
       color: #ff3b81;
     }
     .action-btn.pink:hover {
-      background: rgba(255, 59, 129, 0.2);
+      background: rgba(255, 59, 129, 0.25);
       border-color: #ff3b81;
-      box-shadow: 0 0 12px rgba(255, 59, 129, 0.4);
+      box-shadow: 0 0 16px rgba(255, 59, 129, 0.5);
     }
     /* Bottom Navigation / Hub bar */
     .hub-bar {
@@ -179,20 +210,22 @@
       justify-content: center;
       align-items: center;
       gap: 12px;
-      background: rgba(9, 13, 24, 0.85);
-      border: 1px solid rgba(0, 229, 255, 0.2);
-      padding: 10px 20px;
+      background: rgba(9, 13, 24, 0.9);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      padding: 10px 22px;
       border-radius: 9999px;
-      backdrop-filter: blur(16px);
+      backdrop-filter: blur(20px);
       margin: 0 auto;
       max-width: fit-content;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
     }
     .hub-link {
       color: #94a3b8;
       text-decoration: none;
       font-size: 12px;
-      padding: 6px 12px;
-      border-radius: 6px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 8px;
       transition: all 0.2s;
       display: flex;
       align-items: center;
@@ -200,33 +233,34 @@
     }
     .hub-link:hover, .hub-link.active {
       color: #00E5FF;
-      background: rgba(0, 229, 255, 0.1);
+      background: rgba(0, 229, 255, 0.12);
+      box-shadow: 0 0 12px rgba(0, 229, 255, 0.2);
     }
-    /* 3D HTML Node Markers */
-    .node-label {
+    /* Node Tooltip Overlay */
+    #node-tooltip {
       position: absolute;
-      transform: translate(-50%, -50%);
-      background: rgba(9, 13, 24, 0.9);
-      border: 1px solid rgba(0, 229, 255, 0.4);
-      padding: 4px 10px;
-      border-radius: 6px;
-      color: #00E5FF;
-      font-size: 10px;
-      font-weight: 700;
-      white-space: nowrap;
+      display: none;
+      background: rgba(9, 13, 24, 0.95);
+      border: 1px solid #00E5FF;
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #e2e8f0;
+      font-size: 11px;
+      box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
       pointer-events: none;
-      box-shadow: 0 0 12px rgba(0, 229, 255, 0.3);
-      transition: opacity 0.2s;
+      z-index: 50;
+      backdrop-filter: blur(12px);
     }
     @media (max-width: 768px) {
       .cockpit-panel { display: none; }
-      .brand-title { font-size: 20px; }
-      .hub-bar { flex-wrap: wrap; border-radius: 12px; }
+      .brand-title { font-size: 18px; }
+      .hub-bar { flex-wrap: wrap; border-radius: 12px; padding: 8px; }
     }
   </style>
 </head>
 <body>
   <div id="canvas-container"></div>
+  <div id="node-tooltip"></div>
 
   <div class="hud-layer">
     <header>
@@ -236,36 +270,45 @@
         </div>
         <div class="brand-subtitle">SOVEREIGN MULTI-AGENT SWARM OBSERVABILITY</div>
       </div>
-      <div class="status-badge interactive">
-        <div class="pulse-dot"></div>
-        <span>SWARM BUS :8989 ACTIVE</span>
+      <div class="header-badges">
+        <div class="status-badge interactive">
+          <div class="pulse-dot"></div>
+          <span>SWARM BUS :8989 ONLINE</span>
+        </div>
       </div>
     </header>
 
     <div class="cockpit-panel interactive">
       <div class="cockpit-header">
-        <span>// LIVE TELEMETRY</span>
-        <span style="color: #00E5FF;">v2026.8</span>
+        <span>// SWARM TELEMETRY</span>
+        <span style="color: #00E5FF;">v2026.9</span>
       </div>
       <div class="telemetry-row">
-        <span class="telemetry-label">Orchestrator</span>
-        <span class="telemetry-val">Antigravity (AGY)</span>
+        <span class="telemetry-label">Primary Orchestrator</span>
+        <span class="telemetry-val">Antigravity (`agy`)</span>
       </div>
       <div class="telemetry-row">
-        <span class="telemetry-label">Active Nodes</span>
-        <span class="telemetry-val" id="node-count">9 Swarm Spirits</span>
+        <span class="telemetry-label">Swarm Node Plane</span>
+        <span class="telemetry-val" id="node-count">6 Autonomous Spirits</span>
       </div>
       <div class="telemetry-row">
-        <span class="telemetry-label">Attention Math</span>
-        <span class="telemetry-val">QKᵀ / √d_k (Active)</span>
+        <span class="telemetry-label">Attention Physics</span>
+        <span class="telemetry-val">softmax(QKᵀ/√d_k)</span>
       </div>
       <div class="telemetry-row">
-        <span class="telemetry-label">Key Vault</span>
-        <span class="telemetry-val" style="color:#10b981;">Argon2id Locked</span>
+        <span class="telemetry-label">Key Vault Protocol</span>
+        <span class="telemetry-val" style="color:#10b981;">Argon2id + XChaCha20</span>
       </div>
       <div class="telemetry-row">
-        <span class="telemetry-label">Production Sites</span>
-        <span class="telemetry-val">160+ Deployed</span>
+        <span class="telemetry-label">Production Speed</span>
+        <span class="telemetry-val">160+ Shipped • &lt;15ms TTFB</span>
+      </div>
+
+      <div class="terminal-stream" id="terminal-stream">
+        <div class="log-entry log-cyan">[AGY:INIT] Sovereign master node initialized.</div>
+        <div class="log-entry log-pink">[HERMES:BUS] Task DAG #4092 assigned to subagents.</div>
+        <div class="log-entry log-purple">[GROK:OSINT] Attack surface telemetry verified.</div>
+        <div class="log-entry log-green">[AZOTH:VAULT] Argon2id hardware key locked.</div>
       </div>
 
       <div class="controls-grid">
@@ -279,9 +322,10 @@
     <footer style="display:flex; justify-content:center;">
       <nav class="hub-bar interactive">
         <a href="https://nealfrazier.tech" target="_blank" class="hub-link">🌐 Flagship</a>
+        <a href="https://x.com/NealFrazierTech" target="_blank" class="hub-link">𝕏 @NealFrazierTech</a>
         <a href="https://nullai.tech" target="_blank" class="hub-link">🔮 Zoth Studio</a>
         <a href="https://757tech.pro" target="_blank" class="hub-link">⚡ Tech Pro</a>
-        <a href="https://github.com/1nc0gn30" target="_blank" class="hub-link">🐙 GitHub Profile</a>
+        <a href="https://github.com/1nc0gn30" target="_blank" class="hub-link">🐙 GitHub</a>
         <a href="mailto:business@nealfrazier.tech" class="hub-link">📩 Contact</a>
       </nav>
     </footer>
@@ -290,11 +334,12 @@
   <script>
     // --- THREE.JS 3D SCENE INITIALIZATION ---
     const container = document.getElementById('canvas-container');
+    const tooltip = document.getElementById('node-tooltip');
     const scene = new THREE.Scene();
     scene.fog = new THREE.FogExp2(0x03050a, 0.015);
 
     const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.set(0, 25, 45);
+    camera.position.set(0, 24, 46);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -304,35 +349,35 @@
     const controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
-    controls.maxDistance = 100;
+    controls.maxDistance = 120;
     controls.minDistance = 10;
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.8;
 
     // --- LIGHTS ---
-    const ambientLight = new THREE.AmbientLight(0x090d18, 2);
+    const ambientLight = new THREE.AmbientLight(0x090d18, 2.5);
     scene.add(ambientLight);
 
-    const cyanPoint = new THREE.PointLight(0x00E5FF, 3, 60);
+    const cyanPoint = new THREE.PointLight(0x00E5FF, 3.5, 70);
     cyanPoint.position.set(0, 0, 0);
     scene.add(cyanPoint);
 
-    const magentaPoint = new THREE.PointLight(0xff3b81, 2, 50);
-    magentaPoint.position.set(15, 10, -15);
+    const magentaPoint = new THREE.PointLight(0xff3b81, 2.5, 60);
+    magentaPoint.position.set(18, 12, -18);
     scene.add(magentaPoint);
 
     // --- CENTRAL CORE: ARGON2ID SOVEREIGN REACTOR ---
-    const coreGeo = new THREE.IcosahedronGeometry(4, 2);
+    const coreGeo = new THREE.IcosahedronGeometry(4.2, 2);
     const coreMat = new THREE.MeshStandardMaterial({
       color: 0x03050a,
       emissive: 0x00E5FF,
-      emissiveIntensity: 0.6,
+      emissiveIntensity: 0.65,
       wireframe: true
     });
     const centralCore = new THREE.Mesh(coreGeo, coreMat);
     scene.add(centralCore);
 
-    const coreGlowGeo = new THREE.SphereGeometry(3.2, 32, 32);
+    const coreGlowGeo = new THREE.SphereGeometry(3.5, 32, 32);
     const coreGlowMat = new THREE.MeshBasicMaterial({
       color: 0x00E5FF,
       transparent: true,
@@ -343,12 +388,12 @@
 
     // --- ORBITAL TELEMETRY RINGS ---
     function createRing(radius, color, tiltX, tiltZ) {
-      const ringGeo = new THREE.RingGeometry(radius, radius + 0.15, 64);
+      const ringGeo = new THREE.RingGeometry(radius, radius + 0.16, 64);
       const ringMat = new THREE.MeshBasicMaterial({
         color: color,
         side: THREE.DoubleSide,
         transparent: true,
-        opacity: 0.5
+        opacity: 0.55
       });
       const ring = new THREE.Mesh(ringGeo, ringMat);
       ring.rotation.x = tiltX;
@@ -357,12 +402,12 @@
       return ring;
     }
 
-    const ring1 = createRing(10, 0x00E5FF, Math.PI / 2.2, 0);
-    const ring2 = createRing(16, 0xff3b81, Math.PI / 1.8, 0.4);
-    const ring3 = createRing(22, 0xa855f7, Math.PI / 2.5, -0.3);
+    const ring1 = createRing(11, 0x00E5FF, Math.PI / 2.2, 0);
+    const ring2 = createRing(17, 0xff3b81, Math.PI / 1.8, 0.4);
+    const ring3 = createRing(23, 0xa855f7, Math.PI / 2.5, -0.3);
 
-    // --- PARTICLES FIELD (1200 STARS/TENSORS) ---
-    const particleCount = 1200;
+    // --- PARTICLES FIELD (1500 STARS/TENSORS) ---
+    const particleCount = 1500;
     const particleGeo = new THREE.BufferGeometry();
     const particlePositions = new Float32Array(particleCount * 3);
     const particleColors = new Float32Array(particleCount * 3);
@@ -375,7 +420,7 @@
     ];
 
     for (let i = 0; i < particleCount; i++) {
-      const radius = 12 + Math.random() * 50;
+      const radius = 12 + Math.random() * 55;
       const theta = Math.random() * Math.PI * 2;
       const phi = Math.acos(2 * Math.random() - 1);
 
@@ -396,35 +441,36 @@
       size: 0.6,
       vertexColors: true,
       transparent: true,
-      opacity: 0.8
+      opacity: 0.85
     });
     const particleSystem = new THREE.Points(particleGeo, particleMat);
     scene.add(particleSystem);
 
     // --- SWARM AGENT NODES ---
     const agents = [
-      { name: "Antigravity (AGY)", color: 0x00E5FF, dist: 10, speed: 0.015, angle: 0 },
-      { name: "Nous Hermes", color: 0xff3b81, dist: 16, speed: 0.010, angle: Math.PI * 0.6 },
-      { name: "Grok Autonomous", color: 0xa855f7, dist: 22, speed: 0.008, angle: Math.PI * 1.2 },
-      { name: "Ollama (DeepSeek)", color: 0x10b981, dist: 14, speed: -0.012, angle: Math.PI * 1.8 },
-      { name: "Zoth Signal Bridge", color: 0x00E5FF, dist: 18, speed: 0.009, angle: Math.PI * 0.3 },
-      { name: "Maya Video DSP", color: 0xff3b81, dist: 20, speed: -0.007, angle: Math.PI * 0.9 }
+      { name: "Antigravity (AGY)", role: "Autonomous Orchestrator", color: 0x00E5FF, dist: 11, speed: 0.015, angle: 0 },
+      { name: "Nous Hermes", role: "Task DAG Executor", color: 0xff3b81, dist: 17, speed: 0.010, angle: Math.PI * 0.6 },
+      { name: "Grok Autonomous", role: "OSINT & Research Scout", color: 0xa855f7, dist: 23, speed: 0.008, angle: Math.PI * 1.2 },
+      { name: "Azoth Engine", role: "Sovereign Background Daemon", color: 0x10b981, dist: 15, speed: -0.012, angle: Math.PI * 1.8 },
+      { name: "Maya Video DSP", role: "Web Audio & CV Tracking", color: 0x00E5FF, dist: 19, speed: 0.009, angle: Math.PI * 0.3 },
+      { name: "Ollama / DeepSeek", role: "Local Open-Weight LLM", color: 0xff3b81, dist: 21, speed: -0.007, angle: Math.PI * 0.9 }
     ];
 
     const agentMeshes = [];
     agents.forEach((agent) => {
-      const geo = new THREE.OctahedronGeometry(1.2, 0);
+      const geo = new THREE.OctahedronGeometry(1.3, 0);
       const mat = new THREE.MeshStandardMaterial({
         color: agent.color,
         emissive: agent.color,
-        emissiveIntensity: 0.8,
+        emissiveIntensity: 0.85,
         wireframe: false
       });
       const mesh = new THREE.Mesh(geo, mat);
+      mesh.userData = agent;
       scene.add(mesh);
 
-      // Light trail
-      const glowGeo = new THREE.SphereGeometry(1.8, 16, 16);
+      // Light glow
+      const glowGeo = new THREE.SphereGeometry(1.9, 16, 16);
       const glowMat = new THREE.MeshBasicMaterial({
         color: agent.color,
         transparent: true,
@@ -440,7 +486,7 @@
     const lineMat = new THREE.LineBasicMaterial({
       color: 0x00E5FF,
       transparent: true,
-      opacity: 0.4
+      opacity: 0.45
     });
     const lineGeo = new THREE.BufferGeometry();
     const linePositions = new Float32Array(agents.length * 6);
@@ -450,39 +496,89 @@
 
     // --- AUDIO SYNTHESIS PULSE ---
     let audioCtx = null;
-    function playCyberPulse() {
+    function playCyberPulse(freq = 440) {
       try {
         if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         if (audioCtx.state === 'suspended') audioCtx.resume();
         const osc = audioCtx.createOscillator();
         const gain = audioCtx.createGain();
         osc.type = 'sine';
-        osc.frequency.setValueAtTime(440, audioCtx.currentTime);
-        osc.frequency.exponentialRampToValueAtTime(120, audioCtx.currentTime + 0.3);
-        gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(120, audioCtx.currentTime + 0.35);
+        gain.gain.setValueAtTime(0.18, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.35);
         osc.connect(gain);
         gain.connect(audioCtx.destination);
         osc.start();
-        osc.stop(audioCtx.currentTime + 0.3);
+        osc.stop(audioCtx.currentTime + 0.35);
       } catch (e) {}
     }
+
+    // --- REALTIME LOG SIMULATOR ---
+    const logs = [
+      { text: "[AGY:ORCHESTRATE] Chaining DAG tasks across 6 swarm agents", cls: "log-cyan" },
+      { text: "[TENSOR:CALC] Scaled dot-product attention computed (0.942)", cls: "log-purple" },
+      { text: "[NETLIFY:EDGE] Edge deployment completed in 4.2s (TTFB <12ms)", cls: "log-green" },
+      { text: "[MAYA:DSP] Web Audio FFT spectrum synthesis streaming", cls: "log-pink" },
+      { text: "[AZOTH:POLL] Loopback socket :8484 verified zero cloud leakage", cls: "log-cyan" },
+      { text: "[SECURITY:AUDIT] Argon2id vault hardware key rotation valid", cls: "log-green" }
+    ];
+    const streamContainer = document.getElementById('terminal-stream');
+    let logIdx = 0;
+    setInterval(() => {
+      const item = logs[logIdx % logs.length];
+      const div = document.createElement('div');
+      div.className = `log-entry ${item.cls}`;
+      div.innerText = item.text;
+      streamContainer.appendChild(div);
+      if (streamContainer.children.length > 5) {
+        streamContainer.removeChild(streamContainer.children[0]);
+      }
+      logIdx++;
+    }, 2800);
 
     // --- BUTTON CONTROLS ---
     document.getElementById('btn-toggle-rot').addEventListener('click', () => {
       controls.autoRotate = !controls.autoRotate;
       document.getElementById('btn-toggle-rot').innerText = controls.autoRotate ? 'PAUSE ORBIT' : 'RESUME ORBIT';
-      playCyberPulse();
+      playCyberPulse(520);
     });
 
     document.getElementById('btn-pulse-wave').addEventListener('click', () => {
-      coreMat.emissiveIntensity = 2.5;
-      coreGlow.scale.set(2, 2, 2);
-      playCyberPulse();
+      coreMat.emissiveIntensity = 2.8;
+      coreGlow.scale.set(2.2, 2.2, 2.2);
+      playCyberPulse(660);
       setTimeout(() => {
-        coreMat.emissiveIntensity = 0.6;
+        coreMat.emissiveIntensity = 0.65;
         coreGlow.scale.set(1, 1, 1);
-      }, 400);
+      }, 450);
+    });
+
+    // --- RAYCASTING FOR INTERACTIVE NODE INSPECTION ---
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+
+    window.addEventListener('mousemove', (event) => {
+      mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+      raycaster.setFromCamera(mouse, camera);
+      const intersects = raycaster.intersectObjects(agentMeshes.map(a => a.mesh));
+
+      if (intersects.length > 0) {
+        const obj = intersects[0].object;
+        const data = obj.userData;
+        tooltip.style.display = 'block';
+        tooltip.style.left = event.clientX + 15 + 'px';
+        tooltip.style.top = event.clientY + 15 + 'px';
+        tooltip.innerHTML = `
+          <div style="font-weight:700; color:#00E5FF; margin-bottom:2px;">${data.name}</div>
+          <div style="color:#94a3b8; font-size:10px;">${data.role}</div>
+          <div style="color:#ff3b81; font-size:9px; margin-top:4px;">STATUS: ACTIVE • SPEED: ${Math.abs(data.speed * 100).toFixed(1)}x</div>
+        `;
+      } else {
+        tooltip.style.display = 'none';
+      }
     });
 
     // --- RESIZE HANDLER ---
@@ -502,7 +598,7 @@
       // Central core breathing
       centralCore.rotation.x += 0.005;
       centralCore.rotation.y += 0.008;
-      const coreScale = 1 + Math.sin(time * 2) * 0.06;
+      const coreScale = 1 + Math.sin(time * 2.2) * 0.07;
       centralCore.scale.set(coreScale, coreScale, coreScale);
 
       // Rings rotating
@@ -519,7 +615,7 @@
         item.data.angle += item.data.speed;
         const x = Math.cos(item.data.angle) * item.data.dist;
         const z = Math.sin(item.data.angle) * item.data.dist;
-        const y = Math.sin(time * 2 + idx) * 2;
+        const y = Math.sin(time * 2 + idx) * 2.2;
 
         item.mesh.position.set(x, y, z);
         item.mesh.rotation.x += 0.02;

@@ -377,39 +377,29 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 <div align="center">
 
-## 🎯 ***THE PROBLEM I SOLVE***
+## 🗺️ ***THE 15 MASTER ARCHITECTURAL DOMAINS***
 
-### ***Why Most Businesses and Systems Bleed Revenue and Momentum***
+### ***Complete Project Atlas Tracked Across The Sovereign Ecosystem***
 
 </div>
 
-<table align="center" width="100%">
-<tr>
-<td align="left" width="50%">
-
-### ❌ ***The Status Quo (Broken & Leaky)***
-
-- 🚨 **Slow response times** → Leads wait hours; 80% go to competitors
-- 📉 **Manual follow-ups** → Deals slip through cracks and revenue leaks
-- 🔗 **Fragmented software** → Disconnected SaaS apps creating chaos
-- 🐌 **Bloated websites** → Slow 4s+ loads that kill conversions
-- ☁️ **Opaque cloud AI lock-in** → Leaked API keys, high bills, zero control
-
-</td>
-
-<td align="left" width="50%">
-
-### ✅ ***The Sovereign Solution (High-Velocity)***
-
-- ⚡ **<30s AI response time** → Immediate engagement and instant qualification
-- 🤖 **24/7 AI employee systems** → Never sleep, never forget, never drop leads
-- 🔌 **Unified automated pipelines** → Git-triggered edge deployments and CRM sync
-- 🎨 **Sub-second edge speed** → Blazing-fast Astro/Vite sites with >95 Lighthouse scores
-- 🔒 **Local-first multi-agent orchestration** → Full mathematical visibility and total privacy
-
-</td>
-</tr>
-</table>
+| **Domain Code** | **Architecture Category** | **Key Technologies & Frameworks** | **Active Focus & Scope** |
+|:---|:---|:---|:---|
+| `00-workspaces` | **Multi-Agent Orchestrators** | Antigravity (`agy`), Nous Hermes, Grok, Azoth | Multi-agent coordination planes & shared bus protocols |
+| `01-clients-services` | **AI Employee Conversion Engines** | Vite, React 19, TypeScript, Netlify Edge, GoHighLevel | 24/7 client intake, qualification, and automated CRM |
+| `02-netlify-ax-creator` | **Agent Experience & Creator Hubs** | Astro, Netlify Functions, Markdown, RSS, JSON-LD | Machine-readable agent endpoints & creator toolkits |
+| `03-ai-agents-llm` | **Autonomous Swarms & Tool Runners** | DSPy, Ollama, DeepSeek-R1, FastMCP, LoRA | Autonomous DAG engines, task executors & prompt spirits |
+| `04-web-apps-saas` | **Full-Stack SaaS Applications** | React, Tailwind CSS, Supabase Postgres, Stripe | High-converting web applications & digital platforms |
+| `05-portfolio-agency` | **High-Converting Portfolios** | HTML5, Modern CSS, Three.js, Framer Motion | High-leverage agency designs & interactive portals |
+| `06-learning-courses` | **Interactive Study Apps & Blikis** | Astro, Markdown, Mermaid.js, Fira Code | Digital gardens, technical courses & engineering docs |
+| `07-security-osint` | **Parrot OS & Reconnaissance** | SubSweep, HexStrike, Nmap, Metasploit, CISA GRC | Sovereign attack-surface discovery & security auditing |
+| `08-crypto-web3` | **Sovereign Cryptography** | Argon2id, XChaCha20-Poly1305, Web3.js | Hardware-bound key vaults & sovereign cryptography |
+| `09-games-experiments` | **3D WebGL Games & Shaders** | Three.js, WebGL, Canvas API, Web Audio API | Interactive browser games, particle systems & physics |
+| `10-python-tools` | **Python Concurrency & Math** | Python 3.12, NumPy, PyTorch, asyncio, uv | Live mathematical tensors & concurrent daemons |
+| `11-tools-scripts` | **Linux Native Automation** | Bash, Zsh, Systemd, Rsync, Cron | Sovereign bare-metal Linux infrastructure scripts |
+| `12-rust` | **High-Performance Systems** | Rust, Cargo, Tokio, WebAssembly | Low-latency binary engines & high-throughput pipelines |
+| `13-creative-media` | **Video DSP & Audio Synthesis** | MediaPipe, FFmpeg, Web Audio DSP, OmniPost | Video repurposing, cursor tracking & sound design |
+| `14-uncategorized` | **Rapid Experimental Labs** | Experimental SDKs, Prototypes, Spikes | Zero-friction proof-of-concepts & emerging ideas |
 
 ---
 
@@ -499,6 +489,34 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 <div align="center">
 
+# 📊 ***GITHUB VELOCITY & STATS MATRIX***
+
+### ***Active Commits, Contributions, and Language Dominance***
+
+<br/>
+
+<table align="center" border="0">
+<tr align="center">
+<td width="50%">
+  <img src="https://github-readme-stats.vercel.app/api?username=1nc0gn30&show_icons=true&theme=tokyonight&bg_color=03050a&title_color=00E5FF&text_color=e2e8f0&icon_color=ff3b81&border_color=00E5FF&hide_border=false" alt="Neal Frazier GitHub Stats" width="100%" />
+</td>
+<td width="50%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1nc0gn30&layout=compact&theme=tokyonight&bg_color=03050a&title_color=ff3b81&text_color=e2e8f0&border_color=a855f7&hide_border=false" alt="Top Languages" width="100%" />
+</td>
+</tr>
+<tr align="center">
+<td colspan="2">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=1nc0gn30&theme=dark&background=03050a&border=00E5FF&stroke=00E5FF&ring=ff3b81&fire=ffaa00&currStreakNum=00E5FF&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" width="100%" />
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
 # ⚙️ ***THE TECHNICAL ARSENAL***
 
 ### ***Engineered for Speed, Scalability, and Mathematical Precision***
@@ -547,6 +565,31 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 | 📚 **Neal Bliki** | *Digital Garden / Knowledge* | [**`www.nullai.tech`**](https://www.nullai.tech) | Comprehensive knowledge base, essays, and architectural blueprints |
 
 </div>
+
+---
+
+<div align="center">
+
+# 💻 ***SOVEREIGN CLI & QUICK-START ORCHESTRATION***
+
+### ***Execute the sovereign multi-agent stack on bare-metal Linux***
+
+</div>
+
+```bash
+# 1. Clone the Sovereign Multi-Agent Hub
+git clone https://github.com/1nc0gn30/1nc0gn30.git
+cd 1nc0gn30
+
+# 2. Launch Local 3D Swarm Telemetry Arena (:8088 / :8484)
+python3 -m http.server 8088
+# Navigate to http://localhost:8088 to inspect the live 3D WebGL node swarm
+
+# 3. Connect to Asynchronous Multi-Agent Bus (:8989)
+curl -X POST http://127.0.0.1:8989/v1/swarm/ping \
+  -H "Authorization: Bearer sovereign_local_token" \
+  -d '{"agent": "antigravity", "action": "inspect_tensors"}'
+```
 
 ---
 
