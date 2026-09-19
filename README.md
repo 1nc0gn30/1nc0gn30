@@ -507,6 +507,58 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 <div align="center">
 
+
+---
+
+<div align="center">
+
+## 🛠️ ***THE 28 AUTONOMOUS ZOTH STUDIO TOOLS & REPOSITORIES***
+
+### ***Complete Catalog of Modular Autonomous Workstations, Bridges & Foundries***
+
+</div>
+
+<details open>
+<summary align="center"><h3><b>⚡ [CLICK TO COLLAPSE / EXPAND] 28 HYPERFOCUSED AUTONOMOUS TOOLS</b></h3></summary>
+
+<br/>
+
+| **#** | **Tool / Workstation** | **Core Domain** | **Primary Capability & Focus** | **Interface URL** |
+|:---:|:---|:---|:---|:---:|
+| `01` | **vOS Sandbox & WebContainer** | *Virtual OS & Compiler* | In-browser WebAssembly POSIX shell, React 18 & Web Audio runner | [`/studio/vos-sandbox.html`](https://zoth.nullai.tech/studio/vos-sandbox.html) |
+| `02` | **WebGen Studio & Foundry** | *Template Engine* | 257+ verified production templates & dual open-source library | [`/studio/webgen.html`](https://zoth.nullai.tech/studio/webgen.html) |
+| `03` | **Netlify AX Architect** | *CI/CD & Serverless* | Autonomous build diagnoser, form validator & self-healing loop | [`/studio/netlify-ax.html`](https://zoth.nullai.tech/studio/netlify-ax.html) |
+| `04` | **The Cockpit Master HUD** | *Video Game HUD* | 1:1 Whiteboard layout, 21-agent selector & zero root-scroll cockpit | [`/studio/cockpit.html`](https://zoth.nullai.tech/studio/cockpit.html) |
+| `05` | **3D Swarm Battle Arena** | *Kinetic Multi-Agent* | Real-time WebGL agent orbit arena & Solfeggio soundscape engine | [`/studio/swarm.html`](https://zoth.nullai.tech/studio/swarm.html) |
+| `06` | **Consensus Battle Arena v2** | *AST Arbitration* | Triangulates code debates between Antigravity, Grok & Hermes | [`/studio/consensus.html`](https://zoth.nullai.tech/studio/consensus.html) |
+| `07` | **Visual DAG Agent Composer** | *Pipeline Design* | Bezier visual workflow graph with YAML multi-agent export | [`/studio/agent-composer.html`](https://zoth.nullai.tech/studio/agent-composer.html) |
+| `08` | **Sovereign Agent Codex** | *Agent Pantheon* | 21 autonomous specialist profiles, system prompts & test sandboxes | [`/agents/`](https://zoth.nullai.tech/agents/) |
+| `09` | **3D Pet Hologram Studio** | *Three.js Figurines* | Volumetric Three.js pet figurine studio with orbital lighting | [`/pets/pet-studio.html`](https://zoth.nullai.tech/pets/pet-studio.html) |
+| `10` | **Vision Link Super-HUD** | *Spatial Vision* | 21-point MediaPipe hand tracking & 22 GLSL post-processing shaders | [`/studio/vision-link.html`](https://zoth.nullai.tech/studio/vision-link.html) |
+| `11` | **16-Companion Hangar** | *Terminal Mascots* | Voice soundboards, sprite triggers & local terminal companion daemon | [`/pets/`](https://zoth.nullai.tech/pets/) |
+| `12` | **Sovereign Operator IDE** | *Code Foundry* | Multi-buffer in-browser IDE with live AST invariant validation | [`/studio/ide.html`](https://zoth.nullai.tech/studio/ide.html) |
+| `13` | **Tool Bench 2.0 Harness** | *Simulation Suite* | Contract-validated execution harness for 298+ tools with HTTP mock | [`/studio/tool-bench.html`](https://zoth.nullai.tech/studio/tool-bench.html) |
+| `14` | **AI Math Observatory** | *Tensor Observability* | 3-tier visual math academy for attention, loss surfaces & entropy | [`/studio/math-pillars.html`](https://zoth.nullai.tech/studio/math-pillars.html) |
+| `15` | **Swarm Bus NOC Telemetry** | *Message Broker* | Live SSE agent message monitor & JSON streaming telemetry hub | [`/studio/bus-monitor.html`](https://zoth.nullai.tech/studio/bus-monitor.html) |
+| `16` | **AI Model Foundry** | *VRAM & Precision* | GPU VRAM precision calculator (FP16/Q8/Q4) & open-weight matrix | [`/studio/models.html`](https://zoth.nullai.tech/studio/models.html) |
+| `17` | **Visual Annotator Deck** | *Feedback Triage* | In-browser element notes, screenshot overlays & @agent assignees | [`/studio/notes-reviewer.html`](https://zoth.nullai.tech/studio/notes-reviewer.html) |
+| `18` | **BYOK Key Vault** | *Argon2id Enclave* | Hardware-bound key container with XChaCha20-Poly1305 encryption | [`/vault/`](https://zoth.nullai.tech/vault/) |
+| `19` | **Adytum Architectural Sanctum**| *System Design* | 22-principle BOTA Tarot architectural mapping matrix | [`/adytum/`](https://zoth.nullai.tech/adytum/) |
+| `20` | **Signal Swarm Bridge** | *Mobile NOC* | End-to-end encrypted Signal messenger daemon for mobile swarm control | [`/signal/`](https://zoth.nullai.tech/signal/) |
+| `21` | **Master Operator Manual** | *Technical Docs* | Port maps, IPC loopback schemas & CLI runner reference | [`/docs/`](https://zoth.nullai.tech/docs/) |
+| `22` | **SubSweep Recon Suite** | *Security & OSINT* | Subdomain enumeration, header audits & vulnerability surface mapper | [`/studio/subsweep.html`](https://zoth.nullai.tech/studio/subsweep.html) |
+| `23` | **OmniPost Video Studio** | *60 FPS Motion DSP* | Multi-aspect 16:9 / 9:16 video composer with alpha chroma overlays | [`/studio/omnipost.html`](https://zoth.nullai.tech/studio/omnipost.html) |
+| `24` | **Nexus 3D Omniverse** | *CSG 3D Engine* | Procedural CSG boolean geometry modeler & GLTF spatial scene viewer | [`/studio/nexus-3d.html`](https://zoth.nullai.tech/studio/nexus-3d.html) |
+| `25` | **Chronicle Archive** | *Incident Logger* | High-fidelity timeline recorder for multi-agent decisions & PR reviews | [`/studio/chronicle.html`](https://zoth.nullai.tech/studio/chronicle.html) |
+| `26` | **Brand Design Foundry** | *Hermetic Tokens* | Golden ratio typography tokens, hermetic seals & dark UI presets | [`/brand/`](https://zoth.nullai.tech/brand/) |
+| `27` | **Solana & Web3 Hub** | *Decentralized Comms*| Non-custodial wallet signers & decentralized telemetry relays | [`/studio/web3-hub.html`](https://zoth.nullai.tech/studio/web3-hub.html) |
+| `28` | **FastMCP Proxy Bridge** | *Tool Protocol* | Python FastMCP runner with JSON-Schema verification & IPC pipe | [`/tools/`](https://zoth.nullai.tech/tools/) |
+
+</details>
+
+
+<div align="center">
+
 ## 🏛️ ***APEX PLATFORMS & FLAGSHIP INVENTIONS***
 
 ### ***Engineered, verified, and running live in production***
@@ -573,6 +625,9 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 </div>
 
+<details open>
+<summary align="center"><h3><b>🌐 [CLICK TO COLLAPSE / EXPAND] 15 MASTER ARCHITECTURAL DOMAINS</b></h3></summary>
+
 | **Domain Code** | **Architecture Category** | **Key Technologies & Frameworks** | **Active Focus & Scope** |
 |:---|:---|:---|:---|
 | `00-workspaces` | **Multi-Agent Orchestrators** | Antigravity (`agy`), Nous Hermes, Grok, Azoth | Multi-agent coordination planes & shared bus protocols |
@@ -590,6 +645,9 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 | `12-rust` | **High-Performance Systems** | Rust, Cargo, Tokio, WebAssembly | Low-latency binary engines & high-throughput pipelines |
 | `13-creative-media` | **Video DSP & Audio Synthesis** | MediaPipe, FFmpeg, Web Audio DSP, OmniPost | Video repurposing, cursor tracking & sound design |
 | `14-uncategorized` | **Rapid Experimental Labs** | Experimental SDKs, Prototypes, Spikes | Zero-friction proof-of-concepts & emerging ideas |
+
+
+</details>
 
 ---
 
