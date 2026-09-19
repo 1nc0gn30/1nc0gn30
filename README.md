@@ -199,19 +199,25 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 <table align="center" width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
+  <img src="assets/hero-command-deck.jpg" alt="Sovereign Operator Deck" width="100%" />
+  <br/>
+  <b>🖥️ Zoth Studio Operator Command Deck (Loopback :8484)</b>
+  <p><small>Bare-metal control plane executing 47+ local CLIs, live terminal streams, liquid-cooled compute rigs, and encrypted tool runners.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
   <img src="assets/swarm_neural_arena.jpg" alt="3D Kinetic Swarm Arena" width="100%" />
   <br/>
   <b>🛰️ 3D Kinetic Multi-Agent Swarm Arena</b>
   <p><small>Spatial WebGL coordination engine executing DAG task chains across Antigravity, Hermes, Grok, and Azoth.</small></p>
 </td>
+</tr>
+<tr>
 <td width="50%" align="center" valign="top">
   <img src="assets/tensor_math_observability.jpg" alt="3-Pillar Tensor Observability Lab" width="100%" />
   <br/>
   <b>🔬 3-Pillar Tensor Math Observability</b>
   <p><small>Live transformer attention heatmaps ($\text{softmax}(QK^T/\sqrt{d_k})V$), loss gradient vector fields, and Shannon entropy uncertainty curves.</small></p>
 </td>
-</tr>
-<tr>
 <td width="50%" align="center" valign="top">
   <a href="https://757tech.pro" target="_blank">
     <img src="assets/ai_employee_engine.jpg" alt="757tech.pro AI Employee Command Center" width="100%" />
@@ -220,11 +226,33 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
   <b>⚡ AI Employee Command Center (757tech.pro)</b>
   <p><small>Autonomous 24/7 client intake, &lt;30s lead qualification engines, CRM automation, and calendar bookings.</small></p>
 </td>
+</tr>
+<tr>
 <td width="50%" align="center" valign="top">
-  <img src="assets/security_osint_arsenal.jpg" alt="Parrot OS Security & OSINT Arsenal" width="100%" />
+  <img src="assets/section-arsenal.jpg" alt="Parrot OS Security & OSINT Arsenal" width="100%" />
   <br/>
   <b>🛡️ Parrot OS Security & OSINT Recon Arsenal</b>
-  <p><small>298+ integrated security tools, subdomain reconnaissance radar, Argon2id encrypted vaults, and loopback isolation (:8484).</small></p>
+  <p><small>298+ integrated security tools, subdomain reconnaissance radar, automated CISA vulnerability auditing, and loopback isolation (:8484).</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/section-byok.jpg" alt="Sovereign BYOK Key Vault" width="100%" />
+  <br/>
+  <b>🔐 Sovereign BYOK Hardware Vault & Encryption</b>
+  <p><small>Hardware-bound Argon2id + XChaCha20-Poly1305 cryptographic vaults ensuring zero-cloud data leaks.</small></p>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+  <img src="assets/dag-composer-hero.jpg" alt="Visual DAG Agent Composer" width="100%" />
+  <br/>
+  <b>📐 Visual DAG Playbook Composer</b>
+  <p><small>Interactive node graph chaining local LLMs, cloud frontiers, and security tools into deterministic workflows.</small></p>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="assets/model-foundry-hero.jpg" alt="Open-Weight Model Foundry" width="100%" />
+  <br/>
+  <b>🧬 Sovereign Model Foundry & LoRA Chamber</b>
+  <p><small>Nous Hermes, DeepSeek-R1, and Qwen open-weight LLMs operating with specialized task spirits and LoRA ranks.</small></p>
 </td>
 </tr>
 <tr>
@@ -233,20 +261,6 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
   <br/>
   <b>🎬 Linux Creative DSP & MediaPipe Gesture Studio</b>
   <p><small>MediaPipe 21-point hand tracking, procedural Web Audio DSP, and dynamic 9:16 Shorts / 16:9 widescreen video processing.</small></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <img src="assets/dag-composer-hero.jpg" alt="Visual DAG Agent Composer" width="100%" />
-  <br/>
-  <b>📐 Visual DAG Playbook Composer</b>
-  <p><small>Interactive node graph chaining local LLMs, cloud frontiers, and security tools into deterministic workflows.</small></p>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-  <img src="assets/model-foundry-hero.jpg" alt="Open-Weight Model Foundry" width="100%" />
-  <br/>
-  <b>🧬 Sovereign Model Foundry & Cyber Spirits</b>
-  <p><small>Nous Hermes, DeepSeek, Qwen, and custom LoRA adapters operating with specialized task spirits.</small></p>
 </td>
 <td width="50%" align="center" valign="top">
   <img src="assets/atlas_constellation.jpg" alt="Master Atlas Ecosystem" width="100%" />
@@ -266,7 +280,7 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
   <img src="assets/hero-pet-roster.jpg" alt="Autonomous Cyber Spirits" width="100%" />
   <br/>
   <b>👾 Cyber Mascot Roster & Interactive Spirits</b>
-  <p><small>Autonomous AI personas and specialized prompt spirits powering interactive terminal companions.</small></p>
+  <p><small>Autonomous AI personas and specialized prompt spirits (Antigravity, Hermes, Grok, Azoth, Lynx) powering terminal companions.</small></p>
 </td>
 </tr>
 </table>
@@ -732,13 +746,13 @@ Whether it's creating sovereign local AI studios with live tensor math observabi
 
 | **Project** | **Category** | **Live URL** | **Highlights & Capabilities** |
 |:---|:---|:---:|:---|
-| 🏛️ **Zoth Studio Hub** | *AI / Developer Tools* | [**`nullai.tech`**](https://nullai.tech) | Local-first multi-agent studio, visual DAG composer, 3D kinetic arena |
+| 🏛️ **Zoth Studio Hub** | *AI / Developer Tools* | [**`nullai.tech`**](https://nullai.tech) | Sovereign local-first AI multi-agent workstation, visual DAG composer, and 3D kinetic arena |
 | ⚡ **Tech Pro** | *AI Employee Systems* | [**`757tech.pro`**](https://757tech.pro) | 24/7 AI employee setups, lead intake engines & business automations |
-| 🚀 **Neal Frazier Flagship** | *Personal Brand / Systems* | [**`nealfrazier.tech`**](https://nealfrazier.tech) | Conversion machines, client case studies, high-leverage software |
+| 🚀 **Neal Frazier Flagship** | *Personal Brand & Systems* | [**`nealfrazier.tech`**](https://nealfrazier.tech) | Conversion machines, client case studies, engineering blueprints, and high-leverage software |
 | 🕶️ **Hacker Portfolio v2** | *Cybersecurity / Portfolio* | [**`hacker-portfolio.757tech.pro`**](https://hacker-portfolio.757tech.pro) | Cybernetic interactive portfolio with live terminal interface |
 | 🏛️ **Stoicism 3D Portal** | *3D WebGL / Philosophy* | [**`stoicism.nullai.tech`**](https://stoicism.nullai.tech) | Interactive Three.js particle canvas & Marcus Aurelius wisdom engine |
 | 🎧 **SonicVision AI** | *Audio / Creative AI* | [**`sonicvision-ai.nullai.tech`**](https://sonicvision-ai.nullai.tech) | AI spectrogram visualizer and procedural sound studio |
-| 📚 **Neal Bliki** | *Digital Garden / Knowledge* | [**`www.nullai.tech`**](https://www.nullai.tech) | Comprehensive knowledge base, essays, and architectural blueprints |
+| 📚 **Neal Frazier Bliki** | *Digital Garden / Essays* | [**`nealfrazier.tech`**](https://nealfrazier.tech) | Technical digital garden, essays, system architecture notes, and build logs |
 
 </div>
 
