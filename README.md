@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/matrix-plasma.svg" alt="Neal Frazier • Sovereign Systems & Multi-Agent Intelligence" width="100%" />
+</div>
+
 # Neal Frazier
 
 **Founder & Systems Architect • [Neal Frazier Tech](https://nealfrazier.tech) • [NullAI Platform](https://nullai.tech)**  
@@ -30,6 +34,12 @@ I believe in **radical engineering velocity, local-first utility, and cryptograp
 - **Systems & Security**: Linux, Rust, Python, Go, C++, Cryptography (Argon2id, ChaCha20-Poly1305), Sigstore
 - **Agentics & AI**: Multi-Agent Swarms, Model Context Protocol (MCP), Local LLMs (Ollama, vLLM), PyTorch
 - **Web & Runtime**: TypeScript, React, Next.js, Node.js, Electron, Tailwind CSS, Netlify Edge
+
+```text
+┌──[ telemetry: sovereign-mesh ]──────────────────────────────────────────────────┐
+│  node: 1nc0gn30 • zero-leak: 100% • provenance: sigstore+rekor • crypto: chacha │
+└───────────────────────────────────────────────────────[ state: online / active ]┘
+```
 
 ---
 
