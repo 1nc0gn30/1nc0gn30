@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06070B"/>
+      <stop offset="50%" stop-color="#0C0F18"/>
+      <stop offset="100%" stop-color="#08090F"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5E6AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B1C"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(212,175,55,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background & Grid -->
+  <rect width="1200" height="420" rx="18" fill="url(#bgGrad)" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#goldGlow)"/>
+
+  <!-- Header Banner -->
+  <g transform="translate(40, 34)">
+    <rect x="0" y="0" width="250" height="24" rx="12" fill="rgba(212,175,55,0.14)" stroke="#D4AF37" stroke-opacity="0.5"/>
+    <circle cx="14" cy="12" r="4" fill="#34D399"/>
+    <text x="26" y="16" fill="#F5E6AB" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">SOVEREIGN AI ECOSYSTEM v3.5</text>
+    <text x="0" y="54" fill="#FFFFFF" font-family="Syne, Space Grotesk, sans-serif" font-size="26" font-weight="800" letter-spacing="0.5">NEAL FRAZIER TECH • NULLAI PLATFORM ARCHITECTURE</text>
+    <text x="0" y="76" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13">Zero-Egress Operating System, 71-Tool Workstation Matrix, Autonomous 21-Mind Civilization &amp; Full-Stack AI/Motion Architect</text>
+  </g>
+
+  <!-- 4 Pillar Cards -->
+  <!-- Card 1: ZothOS Linux 3.3 -->
+  <g transform="translate(40, 128)">
+    <rect width="265" height="245" rx="14" fill="#10131E" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="16" y="16" width="42" height="42" rx="10" fill="rgba(212,175,55,0.15)" stroke="#D4AF37" stroke-opacity="0.5"/>
+    <polygon points="37,24 49,31 49,45 37,52 25,45 25,31" fill="none" stroke="#F5E6AB" stroke-width="2"/>
+    <circle cx="37" cy="38" r="4" fill="#D4AF37"/>
+    <text x="70" y="34" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700">LAYER 01 // OS KERNEL</text>
+    <text x="70" y="52" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="800">ZothOS Linux 3.3</text>
+    <line x1="16" y1="72" x2="249" y2="72" stroke="rgba(255,255,255,0.08)"/>
+    <text x="16" y="96" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• KDE Plasma 6.3 Wayland</text>
+    <text x="16" y="118" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Debian 13 + Kali + Parrot</text>
+    <text x="16" y="140" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Linux 6.12 Hybrid GPU DRM</text>
+    <text x="16" y="162" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• ChaCha20 Vault (:8787)</text>
+    <text x="16" y="184" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Sigstore Cosign Provenance</text>
+    <rect x="16" y="204" width="233" height="26" rx="6" fill="rgba(212,175,55,0.12)"/>
+    <text x="132" y="221" text-anchor="middle" fill="#F5E6AB" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700">zothos.nullai.tech</text>
+  </g>
+
+  <!-- Card 2: Zoth Studio v2 -->
+  <g transform="translate(325, 128)">
+    <rect width="265" height="245" rx="14" fill="#10131E" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="16" y="16" width="42" height="42" rx="10" fill="rgba(56,189,248,0.15)" stroke="#38BDF8" stroke-opacity="0.5"/>
+    <circle cx="37" cy="37" r="13" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 2"/>
+    <circle cx="37" cy="37" r="5" fill="#38BDF8"/>
+    <text x="70" y="34" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700">LAYER 02 // COCKPIT</text>
+    <text x="70" y="52" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="800">Zoth Studio v2</text>
+    <line x1="16" y1="72" x2="249" y2="72" stroke="rgba(255,255,255,0.08)"/>
+    <text x="16" y="96" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 71 Sovereign Tools Matrix</text>
+    <text x="16" y="118" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 43 God-Mode Workstations</text>
+    <text x="16" y="140" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 73/73 Live Fleet (:3000)</text>
+    <text x="16" y="162" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• STDP Neuro-Memory (:8094)</text>
+    <text x="16" y="184" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 3-Agent Byzantine Consensus</text>
+    <rect x="16" y="204" width="233" height="26" rx="6" fill="rgba(56,189,248,0.12)"/>
+    <text x="132" y="221" text-anchor="middle" fill="#7DD3FC" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700">zoth.nullai.tech (:3000)</text>
+  </g>
+
+  <!-- Card 3: Zoth Bolt + QuickSite -->
+  <g transform="translate(610, 128)">
+    <rect width="265" height="245" rx="14" fill="#10131E" stroke="#10B981" stroke-opacity="0.5" stroke-width="1.2"/>
+    <rect x="16" y="16" width="42" height="42" rx="10" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-opacity="0.5"/>
+    <path d="M39 22 L27 38 H36 L34 52 L47 35 H38 Z" fill="#34D399"/>
+    <text x="70" y="34" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700">LAYER 03 // WEB &amp; MOTION</text>
+    <text x="70" y="52" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="800">Zoth Bolt + QuickSite</text>
+    <line x1="16" y1="72" x2="249" y2="72" stroke="rgba(255,255,255,0.08)"/>
+    <text x="16" y="96" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 23+ LLMs &amp; 9 Local CLI Agents</text>
+    <text x="16" y="118" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 6 Cinema Motion Templates</text>
+    <text x="16" y="140" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 200k+ SVG &amp; Pixel-Art Vault</text>
+    <text x="16" y="162" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Live URL Clone + Click-to-Edit</text>
+    <text x="16" y="184" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Built on Open-Source bolt.diy</text>
+    <rect x="16" y="204" width="233" height="26" rx="6" fill="rgba(16,185,129,0.12)"/>
+    <text x="132" y="221" text-anchor="middle" fill="#6EE7B7" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700">Bolt :5173 • QuickSite :8092</text>
+  </g>
+
+  <!-- Card 4: Zoth Civilization & Swarm -->
+  <g transform="translate(895, 128)">
+    <rect width="265" height="245" rx="14" fill="#10131E" stroke="#C084FC" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="16" y="16" width="42" height="42" rx="10" fill="rgba(192,132,252,0.15)" stroke="#C084FC" stroke-opacity="0.5"/>
+    <polygon points="37,23 50,48 24,48" fill="none" stroke="#C084FC" stroke-width="2"/>
+    <circle cx="37" cy="40" r="3.5" fill="#F5E6AB"/>
+    <text x="70" y="34" fill="#C084FC" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700">LAYER 04 // AUTONOMY</text>
+    <text x="70" y="52" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="800">Zoth Civilization</text>
+    <line x1="16" y1="72" x2="249" y2="72" stroke="rgba(255,255,255,0.08)"/>
+    <text x="16" y="96" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 21 Sovereign AI Agent Minds</text>
+    <text x="16" y="118" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 3D WebGL Hermetic Plaza</text>
+    <text x="16" y="140" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• 21-Agent Swarm Mux (:8790)</text>
+    <text x="16" y="162" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Etsy &amp; POD Commerce Engine</text>
+    <text x="16" y="184" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• Dual Stripe + Solana Rails</text>
+    <rect x="16" y="204" width="233" height="26" rx="6" fill="rgba(192,132,252,0.12)"/>
+    <text x="132" y="221" text-anchor="middle" fill="#E9D5FF" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="700">Civ :9393 • Swarm :8790</text>
+  </g>
+
+  <!-- Bottom Telemetry Strip -->
+  <text x="600" y="402" text-anchor="middle" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">
+    71 SOVEREIGN TOOLS  •  43 INTERACTIVE WORKSTATIONS  •  69 LOOPBACK PORTS (0 COLLISIONS)  •  18 ZOTH BOLT MCP TOOLS  •  100% ZERO-EGRESS
+  </text>
+</svg>
