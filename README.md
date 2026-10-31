@@ -1,26 +1,26 @@
 <div align="center">
-  <img src="assets/matrix-plasma.svg" alt="Neal Frazier • Sovereign Systems & Multi-Agent Intelligence" width="100%" />
+  <img src="assets/matrix-plasma.svg" alt="1nc0gn30 • Sovereign Systems & Multi-Agent Intelligence" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://nealfrazier.tech"><img src="https://img.shields.io/badge/Hub-nealfrazier.tech-D4AF37?style=for-the-badge&logo=vercel&logoColor=black" alt="nealfrazier.tech" /></a>
+  <a href="https://nullai.tech"><img src="https://img.shields.io/badge/Hub-nullai.tech-D4AF37?style=for-the-badge&logo=vercel&logoColor=black" alt="nullai.tech" /></a>
   <a href="https://nullai.tech"><img src="https://img.shields.io/badge/Research-nullai.tech-38BDF8?style=for-the-badge&logo=atom&logoColor=black" alt="nullai.tech" /></a>
   <a href="https://zoth.nullai.tech"><img src="https://img.shields.io/badge/Zoth_Studio_v2-71_Sovereign_Tools-10B981?style=for-the-badge&logo=sparkles&logoColor=black" alt="Zoth Studio v2" /></a>
   <a href="https://zothos.nullai.tech"><img src="https://img.shields.io/badge/ZothOS_v3.3-KDE_Plasma_6.3_Wayland-C084FC?style=for-the-badge&logo=linux&logoColor=black" alt="ZothOS Linux 3.3" /></a>
   <a href="https://757tech.pro"><img src="https://img.shields.io/badge/Enterprise-757tech.pro-F59E0B?style=for-the-badge&logo=lightning&logoColor=black" alt="757 Tech Pro" /></a>
 </div>
 
-# Neal Frazier (`@1nc0gn30`)
+# 1nc0gn30 (`@1nc0gn30`)
 
-**Founder & Principal Systems Architect • [Neal Frazier Tech](https://nealfrazier.tech) • [NullAI Platform](https://nullai.tech)**  
-Virginia Beach, VA &bull; [GitHub `@1nc0gn30`](https://github.com/1nc0gn30) &bull; [𝕏 `@1nc0gn30`](https://x.com/1nc0gn30) &bull; [Etsy `MetaDigitalGoods`](https://www.etsy.com/shop/MetaDigitalGoods) &bull; [neal@nealfrazier.tech](mailto:neal@nealfrazier.tech)
+**Founder & Principal Systems Architect • [NullAI](https://nullai.tech) • [NullAI Platform](https://nullai.tech)**  
+[GitHub `@1nc0gn30`](https://github.com/1nc0gn30) &bull; [𝕏 `@1nc0gn30`](https://x.com/1nc0gn30) &bull; [Etsy `MetaDigitalGoods`](https://www.etsy.com/shop/MetaDigitalGoods) &bull; [contact@nullai.tech](mailto:contact@nullai.tech)
 
 ---
 
 <div align="center">
-  <img src="assets/sovereign-ecosystem-card.svg" alt="Neal Frazier Tech & NullAI Platform 4-Layer Sovereign Architecture" width="100%" />
+  <img src="assets/sovereign-ecosystem-card.svg" alt="NullAI Platform 4-Layer Sovereign Architecture" width="100%" />
 </div>
 
 ---
@@ -138,12 +138,12 @@ I architect **sovereign operating systems, autonomous multi-agent civilizations,
 ---
 
 ```text
-┌──[ telemetry: sovereign-mesh // neal-frazier-tech ]─────────────────────────────┐
+┌──[ telemetry: sovereign-mesh // nullai ]─────────────────────────────┐
 │  node: 1nc0gn30 • tools: 71/71 • fleet: 73/73 live • ports: 69 (0 collisions)   │
 │  provenance: sigstore+cosign • crypto: argon2id+chacha20 • zero-egress: 100%    │
 └──────────────────────────────────────────────────────[ state: online / active ]─┘
 ```
 
 <div align="center">
-  <sub>Engineered by <b>Neal Frazier Tech</b> (<a href="https://github.com/1nc0gn30">@1nc0gn30</a>) &bull; <a href="https://nealfrazier.tech">nealfrazier.tech</a> &bull; <a href="https://nullai.tech">nullai.tech</a> &bull; <a href="https://zoth.nullai.tech">zoth.nullai.tech</a></sub>
+  <sub>Engineered by <b>NullAI</b> (<a href="https://github.com/1nc0gn30">@1nc0gn30</a>) &bull; <a href="https://nullai.tech">nullai.tech</a> &bull; <a href="https://nullai.tech">nullai.tech</a> &bull; <a href="https://zoth.nullai.tech">zoth.nullai.tech</a></sub>
 </div>
