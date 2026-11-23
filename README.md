@@ -9,11 +9,11 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-**hooded builder @ [nullai](https://nullai.tech).** local-first operating systems, 60fps unicode `U+2800` braille & bayer 8×8 dither shaders, 3D WebGL worlds, and 72 open-access developer & security tools. **100% free. zero paywalls. tips optional.**
+**hooded builder @ [nullai](https://nullai.tech).** local-first operating systems, 60fps unicode `U+2800` braille & bayer 8×8 dither shaders, 3D WebGL worlds, and 83 open-access developer & security tools. **100% free. zero paywalls. tips optional.**
 
 [![1nc0gn30.si](https://img.shields.io/badge/1nc0gn30.si-SOVEREIGN_HUB_%26_TOOLS-D4AF37?style=for-the-badge&logoColor=black)](https://1nc0gn30.si)
 [![1nc0gn30.github.io](https://img.shields.io/badge/1nc0gn30.github.io-GITHUB_%C3%97_1NC0GN30_COLLAB-39D353?style=for-the-badge&logo=github&logoColor=black)](https://1nc0gn30.github.io)
-[![Zoth Studio v2](https://img.shields.io/badge/zoth.nullai.tech-72_FREE_TOOLS_%26_3D_WORLDS-38BDF8?style=for-the-badge)](https://zoth.nullai.tech)
+[![Zoth Studio v2](https://img.shields.io/badge/zoth.nullai.tech-83_FREE_TOOLS_%26_3D_WORLDS-38BDF8?style=for-the-badge)](https://zoth.nullai.tech)
 [![ZothOS v3.4](https://img.shields.io/badge/zothos.nullai.tech-DEBIAN_13_LIVE_ISO_%2B_LITE-10B981?style=for-the-badge&logo=linux&logoColor=black)](https://zothos.nullai.tech)
 [![30 Days of Linux](https://img.shields.io/badge/30_DAYS_OF_LINUX-TUI_%2B_GUI_DOJO_v3.4-C084FC?style=for-the-badge)](https://30-days-of-linux.netlify.app)
 
@@ -25,9 +25,9 @@
 
 | Surface / Platform | Live Production Portal | Source Repository | Core Architecture & Highlights |
 | :--- | :--- | :--- | :--- |
-| **1nc0gn30 Sovereign Hub** | **[1nc0gn30.si](https://1nc0gn30.si)** | [`1nc0gn30/nealsvision`](https://github.com/1nc0gn30/nealsvision) | **360° Orbital Turntable Vortex** (5 real-time 3D geometry modes: Merkaba Star, Quantum Torus Knot, Hyper-Icosahedron, Cyber DNA Helix, Quantum Gyroscope) + interactive 72-tool directory |
+| **1nc0gn30 Sovereign Hub** | **[1nc0gn30.si](https://1nc0gn30.si)** | [`1nc0gn30/nealsvision`](https://github.com/1nc0gn30/nealsvision) | **360° Orbital Turntable Vortex** (5 real-time 3D geometry modes: Merkaba Star, Quantum Torus Knot, Hyper-Icosahedron, Cyber DNA Helix, Quantum Gyroscope) + interactive 83-tool directory |
 | **GitHub × 1nc0gn30 Collab** | **[1nc0gn30.github.io](https://1nc0gn30.github.io)** | [`1nc0gn30/1nc0gn30.github.io`](https://github.com/1nc0gn30/1nc0gn30.github.io) | **GitHub Dark (`#0D1117`) × Sovereign Gold (`#D4AF37`) & Emerald (`#39D353`)** with 3D WebGL + `U+2800` Braille / Bayer 8×8 Dither core & 52-week contribution matrix |
-| **Zoth Studio v2** | **[zoth.nullai.tech](https://zoth.nullai.tech)** | [`NullAITech/zoth-studio-v2`](https://github.com/NullAITech/zoth-studio-v2) | **72 Open-Access Developer & Security Tools**, **8-Planet 3D Star System (`/world`)**, **Pantheon 21 Character RPG Engine**, **Adytum 22 Major Arcana 3D Tarot (`/adytum`)**, & **Second Brain (`/memory`)** |
+| **Zoth Studio v2** | **[zoth.nullai.tech](https://zoth.nullai.tech)** | [`NullAITech/zoth-studio-v2`](https://github.com/NullAITech/zoth-studio-v2) | **83 Open-Access Developer & Security Tools**, **8-Planet 3D Star System (`/world`)**, **Pantheon 21 Character RPG Engine**, **Adytum 22 Major Arcana 3D Tarot (`/adytum`)**, & **Second Brain (`/memory`)** |
 | **ZothOS v3.4 & Lite v1.1** | **[zothos.nullai.tech](https://zothos.nullai.tech)** | [`NullAITech/zoth-os`](https://github.com/NullAITech/zoth-os) · [`zothos-lite`](https://github.com/NullAITech/zothos-lite) | **Debian 13 Trixie + KDE Plasma 6.3 Wayland Live ISO** (285+ CLIs, Kali + Parrot parity, 8 desktop rooms) + **ZothOS-Lite v1.1 A100 Web Desktop (`:8145`)** |
 | **NullAI Research Lab** | **[nullai.tech](https://nullai.tech)** | [`1nc0gn30/nullai2026`](https://github.com/1nc0gn30/nullai2026) | **Ghost Byte 3D Engine**, Sovereign AI Fleet Command Deck, AEO/LLM discovery manifests (`/manifest.json`, `/llms.txt`) |
 | **30 Days of Linux Dojo** | **[30-days-of-linux.netlify.app](https://30-days-of-linux.netlify.app)** | [`1nc0gn30/30-days-of-Linux-Fundamentals`](https://github.com/1nc0gn30/30-days-of-Linux-Fundamentals) | **90 Digestible Student Meals** (`Breakfast`, `Lunch`, `Dinner`), native **C Terminal TUI (`./control-panel`)** + **Astro 5 Interactive Web GUI** (`chmod`, FHS `/`, POSIX pipes `\|`) |
@@ -42,7 +42,7 @@
 flowchart TD
     A["1nc0gn30.github.io (GitHub × 1nc0gn30 Collab)"] --> B["1nc0gn30.si (360° Orbital Vortex & Tool Directory)"]
     A --> C["nullai.tech (NullAI Platform & Ghost Byte Lab)"]
-    B --> D["zoth.nullai.tech (Zoth Studio v2 — 72 Free Tools)"]
+    B --> D["zoth.nullai.tech (Zoth Studio v2 — 83 Free Tools)"]
     C --> D
     C --> E["zothos.nullai.tech (ZothOS v3.4 ISO & ZothOS-Lite v1.1)"]
     D --> F["/world (8-Planet 3D Star System & Pantheon 21 RPG)"]
@@ -59,7 +59,7 @@ flowchart TD
 # Check local ZothOS & Studio loopback daemons on 127.0.0.1
 npx @nullaitech/zoth status
 
-# List all 72 open-access sovereign tools & repositories
+# List all 83 open-access sovereign tools & repositories
 npx @nullaitech/zoth list
 
 # Clone & launch Zoth Studio v2 locally on http://127.0.0.1:3000
